@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7629B8531A9223570086C4F7 /* ADYEncrypter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7629B84C1A9223570086C4F7 /* ADYEncrypter.m */; };
+		7629B8541A9223570086C4F7 /* TKAESCCMCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7629B84E1A9223570086C4F7 /* TKAESCCMCryptor.m */; };
+		7629B8551A9223570086C4F7 /* TKCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7629B8501A9223570086C4F7 /* TKCryptor.m */; };
+		7629B8561A9223570086C4F7 /* TKRSACryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7629B8521A9223570086C4F7 /* TKRSACryptor.m */; };
+		7632F2381A1CFAA8004B169E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7632F2371A1CFAA8004B169E /* Security.framework */; };
+		902773EC17C6232300C6B362 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 902773EB17C6232300C6B362 /* Settings.bundle */; };
+		90A4EDA417C4EEDB00992DD3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90A4EDA317C4EEDB00992DD3 /* UIKit.framework */; };
+		90A4EDA617C4EEDB00992DD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90A4EDA517C4EEDB00992DD3 /* Foundation.framework */; };
+		90A4EDA817C4EEDB00992DD3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90A4EDA717C4EEDB00992DD3 /* CoreGraphics.framework */; };
+		90A4EDAE17C4EEDB00992DD3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 90A4EDAC17C4EEDB00992DD3 /* InfoPlist.strings */; };
+		90A4EDB017C4EEDB00992DD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A4EDAF17C4EEDB00992DD3 /* main.m */; };
+		90A4EDB417C4EEDB00992DD3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A4EDB317C4EEDB00992DD3 /* AppDelegate.m */; };
+		90A4EDB617C4EEDB00992DD3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 90A4EDB517C4EEDB00992DD3 /* Default.png */; };
+		90A4EDB817C4EEDB00992DD3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90A4EDB717C4EEDB00992DD3 /* Default@2x.png */; };
+		90A4EDBA17C4EEDB00992DD3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90A4EDB917C4EEDB00992DD3 /* Default-568h@2x.png */; };
+		90A4EDDF17C4F32B00992DD3 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A4EDD217C4F32B00992DD3 /* Card.m */; };
+		90A4EDE117C4F32B00992DD3 /* NSString+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A4EDD617C4F32B00992DD3 /* NSString+Util.m */; };
+		90A4EDE617C4F37A00992DD3 /* CardDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A4EDE517C4F37A00992DD3 /* CardDataViewController.m */; };
+		90A4EDED17C4F5C200992DD3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 90A4EDEC17C4F5C200992DD3 /* README.md */; };
+		90CB2D0D17C62CFB0028BEE7 /* NSDictionary+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CB2D0C17C62CFB0028BEE7 /* NSDictionary+Util.m */; };
+		90CB2D1317C64CB00028BEE7 /* PaymentRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CB2D1217C64CB00028BEE7 /* PaymentRequest.m */; };
+		90CB2D1917C65C1C0028BEE7 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 90CB2D1517C65C1C0028BEE7 /* Icon-72.png */; };
+		90CB2D1A17C65C1C0028BEE7 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90CB2D1617C65C1C0028BEE7 /* Icon-72@2x.png */; };
+		90CB2D1B17C65C1C0028BEE7 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 90CB2D1717C65C1C0028BEE7 /* Icon.png */; };
+		90CB2D1C17C65C1C0028BEE7 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90CB2D1817C65C1C0028BEE7 /* Icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7629B84B1A9223570086C4F7 /* ADYEncrypter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADYEncrypter.h; sourceTree = "<group>"; };
+		7629B84C1A9223570086C4F7 /* ADYEncrypter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADYEncrypter.m; sourceTree = "<group>"; };
+		7629B84D1A9223570086C4F7 /* TKAESCCMCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKAESCCMCryptor.h; sourceTree = "<group>"; };
+		7629B84E1A9223570086C4F7 /* TKAESCCMCryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKAESCCMCryptor.m; sourceTree = "<group>"; };
+		7629B84F1A9223570086C4F7 /* TKCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKCryptor.h; sourceTree = "<group>"; };
+		7629B8501A9223570086C4F7 /* TKCryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKCryptor.m; sourceTree = "<group>"; };
+		7629B8511A9223570086C4F7 /* TKRSACryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKRSACryptor.h; sourceTree = "<group>"; };
+		7629B8521A9223570086C4F7 /* TKRSACryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKRSACryptor.m; sourceTree = "<group>"; };
+		7632F2371A1CFAA8004B169E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		902773EB17C6232300C6B362 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = ../Settings.bundle; sourceTree = "<group>"; };
+		90A4EDA017C4EEDB00992DD3 /* Adyen Clientside.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Adyen Clientside.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90A4EDA317C4EEDB00992DD3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		90A4EDA517C4EEDB00992DD3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		90A4EDA717C4EEDB00992DD3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		90A4EDAB17C4EEDB00992DD3 /* AdyenClientsideEncryptionDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AdyenClientsideEncryptionDemo-Info.plist"; sourceTree = "<group>"; };
+		90A4EDAD17C4EEDB00992DD3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		90A4EDAF17C4EEDB00992DD3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		90A4EDB117C4EEDB00992DD3 /* AdyenClientsideEncryptionDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AdyenClientsideEncryptionDemo-Prefix.pch"; sourceTree = "<group>"; };
+		90A4EDB217C4EEDB00992DD3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		90A4EDB317C4EEDB00992DD3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		90A4EDB517C4EEDB00992DD3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		90A4EDB717C4EEDB00992DD3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		90A4EDB917C4EEDB00992DD3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		90A4EDD117C4F32B00992DD3 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		90A4EDD217C4F32B00992DD3 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		90A4EDD517C4F32B00992DD3 /* NSString+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Util.h"; sourceTree = "<group>"; };
+		90A4EDD617C4F32B00992DD3 /* NSString+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Util.m"; sourceTree = "<group>"; };
+		90A4EDE417C4F37A00992DD3 /* CardDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardDataViewController.h; sourceTree = "<group>"; };
+		90A4EDE517C4F37A00992DD3 /* CardDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardDataViewController.m; sourceTree = "<group>"; };
+		90A4EDEC17C4F5C200992DD3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		90CB2D0B17C62CFB0028BEE7 /* NSDictionary+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Util.h"; sourceTree = "<group>"; };
+		90CB2D0C17C62CFB0028BEE7 /* NSDictionary+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Util.m"; sourceTree = "<group>"; };
+		90CB2D1117C64CB00028BEE7 /* PaymentRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentRequest.h; sourceTree = "<group>"; };
+		90CB2D1217C64CB00028BEE7 /* PaymentRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentRequest.m; sourceTree = "<group>"; };
+		90CB2D1517C65C1C0028BEE7 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		90CB2D1617C65C1C0028BEE7 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		90CB2D1717C65C1C0028BEE7 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		90CB2D1817C65C1C0028BEE7 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90A4ED9D17C4EEDB00992DD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7632F2381A1CFAA8004B169E /* Security.framework in Frameworks */,
+				90A4EDA417C4EEDB00992DD3 /* UIKit.framework in Frameworks */,
+				90A4EDA617C4EEDB00992DD3 /* Foundation.framework in Frameworks */,
+				90A4EDA817C4EEDB00992DD3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7629B84A1A9223570086C4F7 /* ADYEncription */ = {
+			isa = PBXGroup;
+			children = (
+				7629B84B1A9223570086C4F7 /* ADYEncrypter.h */,
+				7629B84C1A9223570086C4F7 /* ADYEncrypter.m */,
+				7629B84D1A9223570086C4F7 /* TKAESCCMCryptor.h */,
+				7629B84E1A9223570086C4F7 /* TKAESCCMCryptor.m */,
+				7629B84F1A9223570086C4F7 /* TKCryptor.h */,
+				7629B8501A9223570086C4F7 /* TKCryptor.m */,
+				7629B8511A9223570086C4F7 /* TKRSACryptor.h */,
+				7629B8521A9223570086C4F7 /* TKRSACryptor.m */,
+			);
+			name = ADYEncription;
+			path = ../ADYEncription;
+			sourceTree = "<group>";
+		};
+		90A4ED9717C4EEDB00992DD3 = {
+			isa = PBXGroup;
+			children = (
+				7629B84A1A9223570086C4F7 /* ADYEncription */,
+				90A4EDA917C4EEDB00992DD3 /* AdyenClientsideEncryptionDemo */,
+				90A4EDA217C4EEDB00992DD3 /* Frameworks */,
+				90A4EDA117C4EEDB00992DD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90A4EDA117C4EEDB00992DD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90A4EDA017C4EEDB00992DD3 /* Adyen Clientside.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90A4EDA217C4EEDB00992DD3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7632F2371A1CFAA8004B169E /* Security.framework */,
+				90A4EDA317C4EEDB00992DD3 /* UIKit.framework */,
+				90A4EDA517C4EEDB00992DD3 /* Foundation.framework */,
+				90A4EDA717C4EEDB00992DD3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90A4EDA917C4EEDB00992DD3 /* AdyenClientsideEncryptionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				90A4EDEC17C4F5C200992DD3 /* README.md */,
+				90A4EDCA17C4F2E000992DD3 /* Encryption */,
+				90A4EDC917C4F2D000992DD3 /* App */,
+				90A4EDAA17C4EEDB00992DD3 /* Supporting Files */,
+			);
+			path = AdyenClientsideEncryptionDemo;
+			sourceTree = "<group>";
+		};
+		90A4EDAA17C4EEDB00992DD3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				90A4EDAB17C4EEDB00992DD3 /* AdyenClientsideEncryptionDemo-Info.plist */,
+				90A4EDAC17C4EEDB00992DD3 /* InfoPlist.strings */,
+				90A4EDAF17C4EEDB00992DD3 /* main.m */,
+				90A4EDB117C4EEDB00992DD3 /* AdyenClientsideEncryptionDemo-Prefix.pch */,
+				90A4EDB517C4EEDB00992DD3 /* Default.png */,
+				90A4EDB717C4EEDB00992DD3 /* Default@2x.png */,
+				90A4EDB917C4EEDB00992DD3 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		90A4EDC917C4F2D000992DD3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				90CB2D1417C65C100028BEE7 /* Icons */,
+				902773EB17C6232300C6B362 /* Settings.bundle */,
+				90A4EDE417C4F37A00992DD3 /* CardDataViewController.h */,
+				90A4EDE517C4F37A00992DD3 /* CardDataViewController.m */,
+				90A4EDB217C4EEDB00992DD3 /* AppDelegate.h */,
+				90A4EDB317C4EEDB00992DD3 /* AppDelegate.m */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		90A4EDCA17C4F2E000992DD3 /* Encryption */ = {
+			isa = PBXGroup;
+			children = (
+				90CB2D0B17C62CFB0028BEE7 /* NSDictionary+Util.h */,
+				90CB2D0C17C62CFB0028BEE7 /* NSDictionary+Util.m */,
+				90A4EDD117C4F32B00992DD3 /* Card.h */,
+				90A4EDD217C4F32B00992DD3 /* Card.m */,
+				90A4EDD517C4F32B00992DD3 /* NSString+Util.h */,
+				90A4EDD617C4F32B00992DD3 /* NSString+Util.m */,
+				90CB2D1117C64CB00028BEE7 /* PaymentRequest.h */,
+				90CB2D1217C64CB00028BEE7 /* PaymentRequest.m */,
+			);
+			name = Encryption;
+			sourceTree = "<group>";
+		};
+		90CB2D1417C65C100028BEE7 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				90CB2D1517C65C1C0028BEE7 /* Icon-72.png */,
+				90CB2D1617C65C1C0028BEE7 /* Icon-72@2x.png */,
+				90CB2D1717C65C1C0028BEE7 /* Icon.png */,
+				90CB2D1817C65C1C0028BEE7 /* Icon@2x.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90A4ED9F17C4EEDB00992DD3 /* AdyenClientsideEncryptionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90A4EDC617C4EEDB00992DD3 /* Build configuration list for PBXNativeTarget "AdyenClientsideEncryptionDemo" */;
+			buildPhases = (
+				90A4ED9C17C4EEDB00992DD3 /* Sources */,
+				90A4ED9D17C4EEDB00992DD3 /* Frameworks */,
+				90A4ED9E17C4EEDB00992DD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdyenClientsideEncryptionDemo;
+			productName = AdyenClientsideEncryptionDemo;
+			productReference = 90A4EDA017C4EEDB00992DD3 /* Adyen Clientside.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90A4ED9817C4EEDB00992DD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Adyen;
+				TargetAttributes = {
+					90A4ED9F17C4EEDB00992DD3 = {
+						DevelopmentTeam = B2NYSS5932;
+					};
+				};
+			};
+			buildConfigurationList = 90A4ED9B17C4EEDB00992DD3 /* Build configuration list for PBXProject "AdyenClientsideEncryptionDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 90A4ED9717C4EEDB00992DD3;
+			productRefGroup = 90A4EDA117C4EEDB00992DD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90A4ED9F17C4EEDB00992DD3 /* AdyenClientsideEncryptionDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90A4ED9E17C4EEDB00992DD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90A4EDAE17C4EEDB00992DD3 /* InfoPlist.strings in Resources */,
+				90A4EDB617C4EEDB00992DD3 /* Default.png in Resources */,
+				90A4EDB817C4EEDB00992DD3 /* Default@2x.png in Resources */,
+				90A4EDBA17C4EEDB00992DD3 /* Default-568h@2x.png in Resources */,
+				90A4EDED17C4F5C200992DD3 /* README.md in Resources */,
+				902773EC17C6232300C6B362 /* Settings.bundle in Resources */,
+				90CB2D1917C65C1C0028BEE7 /* Icon-72.png in Resources */,
+				90CB2D1A17C65C1C0028BEE7 /* Icon-72@2x.png in Resources */,
+				90CB2D1B17C65C1C0028BEE7 /* Icon.png in Resources */,
+				90CB2D1C17C65C1C0028BEE7 /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90A4ED9C17C4EEDB00992DD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90A4EDB017C4EEDB00992DD3 /* main.m in Sources */,
+				90A4EDB417C4EEDB00992DD3 /* AppDelegate.m in Sources */,
+				90A4EDDF17C4F32B00992DD3 /* Card.m in Sources */,
+				7629B8541A9223570086C4F7 /* TKAESCCMCryptor.m in Sources */,
+				7629B8551A9223570086C4F7 /* TKCryptor.m in Sources */,
+				7629B8531A9223570086C4F7 /* ADYEncrypter.m in Sources */,
+				90A4EDE117C4F32B00992DD3 /* NSString+Util.m in Sources */,
+				90A4EDE617C4F37A00992DD3 /* CardDataViewController.m in Sources */,
+				90CB2D0D17C62CFB0028BEE7 /* NSDictionary+Util.m in Sources */,
+				7629B8561A9223570086C4F7 /* TKRSACryptor.m in Sources */,
+				90CB2D1317C64CB00028BEE7 /* PaymentRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		90A4EDAC17C4EEDB00992DD3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90A4EDAD17C4EEDB00992DD3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90A4EDC417C4EEDB00992DD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90A4EDC517C4EEDB00992DD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90A4EDC717C4EEDB00992DD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AdyenClientsideEncryptionDemo/AdyenClientsideEncryptionDemo-Prefix.pch";
+				INFOPLIST_FILE = "AdyenClientsideEncryptionDemo/AdyenClientsideEncryptionDemo-Info.plist";
+				PRODUCT_NAME = "Adyen Clientside";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		90A4EDC817C4EEDB00992DD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AdyenClientsideEncryptionDemo/AdyenClientsideEncryptionDemo-Prefix.pch";
+				INFOPLIST_FILE = "AdyenClientsideEncryptionDemo/AdyenClientsideEncryptionDemo-Info.plist";
+				PRODUCT_NAME = "Adyen Clientside";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90A4ED9B17C4EEDB00992DD3 /* Build configuration list for PBXProject "AdyenClientsideEncryptionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90A4EDC417C4EEDB00992DD3 /* Debug */,
+				90A4EDC517C4EEDB00992DD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90A4EDC617C4EEDB00992DD3 /* Build configuration list for PBXNativeTarget "AdyenClientsideEncryptionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90A4EDC717C4EEDB00992DD3 /* Debug */,
+				90A4EDC817C4EEDB00992DD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90A4ED9817C4EEDB00992DD3 /* Project object */;
+}
