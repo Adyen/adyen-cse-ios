@@ -26,7 +26,7 @@ and public key. The values for these parameters are supplied by Adyen.
 
 ## Writing your own
 
-When writing your own app, copy the Objective-C files from the `Encryption` and `ADYEncription` folders.
+When writing your own app, copy the Objective-C files from the `ADYEncryption` and `AdyenClientsideEncryptionDemo/Encryption` folders.
 The files in the `App` folder exist only for demo-purposes, you don't have to copy them.
 
 When your app wants to submit credit-card data to the Adyen backend, first create an instance

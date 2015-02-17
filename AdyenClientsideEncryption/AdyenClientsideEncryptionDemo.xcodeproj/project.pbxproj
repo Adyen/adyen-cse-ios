@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7629B8531A9223570086C4F7 /* ADYEncrypter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7629B84C1A9223570086C4F7 /* ADYEncrypter.m */; };
-		7629B8541A9223570086C4F7 /* TKAESCCMCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7629B84E1A9223570086C4F7 /* TKAESCCMCryptor.m */; };
-		7629B8551A9223570086C4F7 /* TKCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7629B8501A9223570086C4F7 /* TKCryptor.m */; };
-		7629B8561A9223570086C4F7 /* TKRSACryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7629B8521A9223570086C4F7 /* TKRSACryptor.m */; };
+		7629B8601A938F670086C4F7 /* ADYEncrypter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7629B8591A938F670086C4F7 /* ADYEncrypter.m */; };
+		7629B8611A938F670086C4F7 /* TKAESCCMCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7629B85B1A938F670086C4F7 /* TKAESCCMCryptor.m */; };
+		7629B8621A938F670086C4F7 /* TKCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7629B85D1A938F670086C4F7 /* TKCryptor.m */; };
+		7629B8631A938F670086C4F7 /* TKRSACryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7629B85F1A938F670086C4F7 /* TKRSACryptor.m */; };
 		7632F2381A1CFAA8004B169E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7632F2371A1CFAA8004B169E /* Security.framework */; };
 		902773EC17C6232300C6B362 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 902773EB17C6232300C6B362 /* Settings.bundle */; };
 		90A4EDA417C4EEDB00992DD3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90A4EDA317C4EEDB00992DD3 /* UIKit.framework */; };
@@ -25,7 +25,6 @@
 		90A4EDDF17C4F32B00992DD3 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A4EDD217C4F32B00992DD3 /* Card.m */; };
 		90A4EDE117C4F32B00992DD3 /* NSString+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A4EDD617C4F32B00992DD3 /* NSString+Util.m */; };
 		90A4EDE617C4F37A00992DD3 /* CardDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A4EDE517C4F37A00992DD3 /* CardDataViewController.m */; };
-		90A4EDED17C4F5C200992DD3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 90A4EDEC17C4F5C200992DD3 /* README.md */; };
 		90CB2D0D17C62CFB0028BEE7 /* NSDictionary+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CB2D0C17C62CFB0028BEE7 /* NSDictionary+Util.m */; };
 		90CB2D1317C64CB00028BEE7 /* PaymentRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CB2D1217C64CB00028BEE7 /* PaymentRequest.m */; };
 		90CB2D1917C65C1C0028BEE7 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 90CB2D1517C65C1C0028BEE7 /* Icon-72.png */; };
@@ -35,14 +34,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7629B84B1A9223570086C4F7 /* ADYEncrypter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADYEncrypter.h; sourceTree = "<group>"; };
-		7629B84C1A9223570086C4F7 /* ADYEncrypter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADYEncrypter.m; sourceTree = "<group>"; };
-		7629B84D1A9223570086C4F7 /* TKAESCCMCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKAESCCMCryptor.h; sourceTree = "<group>"; };
-		7629B84E1A9223570086C4F7 /* TKAESCCMCryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKAESCCMCryptor.m; sourceTree = "<group>"; };
-		7629B84F1A9223570086C4F7 /* TKCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKCryptor.h; sourceTree = "<group>"; };
-		7629B8501A9223570086C4F7 /* TKCryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKCryptor.m; sourceTree = "<group>"; };
-		7629B8511A9223570086C4F7 /* TKRSACryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKRSACryptor.h; sourceTree = "<group>"; };
-		7629B8521A9223570086C4F7 /* TKRSACryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKRSACryptor.m; sourceTree = "<group>"; };
+		7629B8581A938F670086C4F7 /* ADYEncrypter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADYEncrypter.h; sourceTree = "<group>"; };
+		7629B8591A938F670086C4F7 /* ADYEncrypter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADYEncrypter.m; sourceTree = "<group>"; };
+		7629B85A1A938F670086C4F7 /* TKAESCCMCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKAESCCMCryptor.h; sourceTree = "<group>"; };
+		7629B85B1A938F670086C4F7 /* TKAESCCMCryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKAESCCMCryptor.m; sourceTree = "<group>"; };
+		7629B85C1A938F670086C4F7 /* TKCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKCryptor.h; sourceTree = "<group>"; };
+		7629B85D1A938F670086C4F7 /* TKCryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKCryptor.m; sourceTree = "<group>"; };
+		7629B85E1A938F670086C4F7 /* TKRSACryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKRSACryptor.h; sourceTree = "<group>"; };
+		7629B85F1A938F670086C4F7 /* TKRSACryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKRSACryptor.m; sourceTree = "<group>"; };
+		7629B8641A938F720086C4F7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		7632F2371A1CFAA8004B169E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		902773EB17C6232300C6B362 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = ../Settings.bundle; sourceTree = "<group>"; };
 		90A4EDA017C4EEDB00992DD3 /* Adyen Clientside.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Adyen Clientside.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,7 +64,6 @@
 		90A4EDD617C4F32B00992DD3 /* NSString+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Util.m"; sourceTree = "<group>"; };
 		90A4EDE417C4F37A00992DD3 /* CardDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardDataViewController.h; sourceTree = "<group>"; };
 		90A4EDE517C4F37A00992DD3 /* CardDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardDataViewController.m; sourceTree = "<group>"; };
-		90A4EDEC17C4F5C200992DD3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		90CB2D0B17C62CFB0028BEE7 /* NSDictionary+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Util.h"; sourceTree = "<group>"; };
 		90CB2D0C17C62CFB0028BEE7 /* NSDictionary+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Util.m"; sourceTree = "<group>"; };
 		90CB2D1117C64CB00028BEE7 /* PaymentRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentRequest.h; sourceTree = "<group>"; };
@@ -90,26 +89,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7629B84A1A9223570086C4F7 /* ADYEncription */ = {
+		7629B8571A938F670086C4F7 /* ADYEncryption */ = {
 			isa = PBXGroup;
 			children = (
-				7629B84B1A9223570086C4F7 /* ADYEncrypter.h */,
-				7629B84C1A9223570086C4F7 /* ADYEncrypter.m */,
-				7629B84D1A9223570086C4F7 /* TKAESCCMCryptor.h */,
-				7629B84E1A9223570086C4F7 /* TKAESCCMCryptor.m */,
-				7629B84F1A9223570086C4F7 /* TKCryptor.h */,
-				7629B8501A9223570086C4F7 /* TKCryptor.m */,
-				7629B8511A9223570086C4F7 /* TKRSACryptor.h */,
-				7629B8521A9223570086C4F7 /* TKRSACryptor.m */,
+				7629B8581A938F670086C4F7 /* ADYEncrypter.h */,
+				7629B8591A938F670086C4F7 /* ADYEncrypter.m */,
+				7629B85A1A938F670086C4F7 /* TKAESCCMCryptor.h */,
+				7629B85B1A938F670086C4F7 /* TKAESCCMCryptor.m */,
+				7629B85C1A938F670086C4F7 /* TKCryptor.h */,
+				7629B85D1A938F670086C4F7 /* TKCryptor.m */,
+				7629B85E1A938F670086C4F7 /* TKRSACryptor.h */,
+				7629B85F1A938F670086C4F7 /* TKRSACryptor.m */,
 			);
-			name = ADYEncription;
-			path = ../ADYEncription;
+			name = ADYEncryption;
+			path = ../ADYEncryption;
 			sourceTree = "<group>";
 		};
 		90A4ED9717C4EEDB00992DD3 = {
 			isa = PBXGroup;
 			children = (
-				7629B84A1A9223570086C4F7 /* ADYEncription */,
+				7629B8641A938F720086C4F7 /* README.md */,
+				7629B8571A938F670086C4F7 /* ADYEncryption */,
 				90A4EDA917C4EEDB00992DD3 /* AdyenClientsideEncryptionDemo */,
 				90A4EDA217C4EEDB00992DD3 /* Frameworks */,
 				90A4EDA117C4EEDB00992DD3 /* Products */,
@@ -138,7 +138,6 @@
 		90A4EDA917C4EEDB00992DD3 /* AdyenClientsideEncryptionDemo */ = {
 			isa = PBXGroup;
 			children = (
-				90A4EDEC17C4F5C200992DD3 /* README.md */,
 				90A4EDCA17C4F2E000992DD3 /* Encryption */,
 				90A4EDC917C4F2D000992DD3 /* App */,
 				90A4EDAA17C4EEDB00992DD3 /* Supporting Files */,
@@ -259,7 +258,6 @@
 				90A4EDB617C4EEDB00992DD3 /* Default.png in Resources */,
 				90A4EDB817C4EEDB00992DD3 /* Default@2x.png in Resources */,
 				90A4EDBA17C4EEDB00992DD3 /* Default-568h@2x.png in Resources */,
-				90A4EDED17C4F5C200992DD3 /* README.md in Resources */,
 				902773EC17C6232300C6B362 /* Settings.bundle in Resources */,
 				90CB2D1917C65C1C0028BEE7 /* Icon-72.png in Resources */,
 				90CB2D1A17C65C1C0028BEE7 /* Icon-72@2x.png in Resources */,
@@ -278,13 +276,13 @@
 				90A4EDB017C4EEDB00992DD3 /* main.m in Sources */,
 				90A4EDB417C4EEDB00992DD3 /* AppDelegate.m in Sources */,
 				90A4EDDF17C4F32B00992DD3 /* Card.m in Sources */,
-				7629B8541A9223570086C4F7 /* TKAESCCMCryptor.m in Sources */,
-				7629B8551A9223570086C4F7 /* TKCryptor.m in Sources */,
-				7629B8531A9223570086C4F7 /* ADYEncrypter.m in Sources */,
+				7629B8611A938F670086C4F7 /* TKAESCCMCryptor.m in Sources */,
+				7629B8621A938F670086C4F7 /* TKCryptor.m in Sources */,
+				7629B8601A938F670086C4F7 /* ADYEncrypter.m in Sources */,
 				90A4EDE117C4F32B00992DD3 /* NSString+Util.m in Sources */,
 				90A4EDE617C4F37A00992DD3 /* CardDataViewController.m in Sources */,
 				90CB2D0D17C62CFB0028BEE7 /* NSDictionary+Util.m in Sources */,
-				7629B8561A9223570086C4F7 /* TKRSACryptor.m in Sources */,
+				7629B8631A938F670086C4F7 /* TKRSACryptor.m in Sources */,
 				90CB2D1317C64CB00028BEE7 /* PaymentRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
