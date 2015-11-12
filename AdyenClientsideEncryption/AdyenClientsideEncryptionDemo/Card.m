@@ -55,7 +55,7 @@
         instance.locale = [[NSLocale alloc] initWithLocaleIdentifier:@"en_US_POSIX"];
         instance.calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
         instance.timeZone = [NSTimeZone timeZoneWithName:@"UTC"];
-        instance.dateFormat = @"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'";
+        instance.dateFormat = @"yyyy-MM-dd'T'HH:mm:ssZZZZZ";
     });
     return instance;
 }
