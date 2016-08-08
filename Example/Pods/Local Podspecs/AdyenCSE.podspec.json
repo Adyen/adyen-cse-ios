@@ -1,0 +1,22 @@
+{
+  "name": "AdyenCSE",
+  "version": "0.1.0",
+  "summary": "A short description of AdyenCSE.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/AdyenCSE",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Oleg Lutsenko": "oleg.lutsenko@adyen.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/AdyenCSE.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AdyenCSE/Classes/**/*"
+}

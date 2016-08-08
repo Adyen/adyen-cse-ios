@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AdyenCSE_Example' do
+  pod 'AdyenCSE', :path => '../'
+
+  target 'AdyenCSE_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
