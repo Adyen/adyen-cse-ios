@@ -7,32 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		122E5F54D6F444D045DBC4521A1E3048 /* ADYCard.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C43D9808DF13C8BA82F26D3EB7DAC1D /* ADYCard.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1B8EF591876A082CC28562BF238A6AF4 /* ADYCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F77DA181756DA06CD45CC42375AEF9F /* ADYCryptor.m */; };
-		1BBB90714FD4DDA459D4019706C7AAB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		1DD2C447EC2634D82968A0A196DD29E5 /* NSDictionary+AdyenUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8782250CC38F72A88AC4812DA0BC10 /* NSDictionary+AdyenUtil.m */; };
-		1E211ECAEF5C5DF25D38DC95896E63E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		24B16EE0B4F976139FF08762A15E2324 /* ADYEncrypter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C304368E0404505616C42C3C2EE6C17 /* ADYEncrypter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04956E6AE3E208BB5FC4927C28E372BB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35EB645053A39B4E088C0BDA3A6C9F5D /* Security.framework */; };
+		0C2686733ECC079DFE10FA127029B954 /* ADYCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7D93835E4ADC4B8163ED3279C104A5 /* ADYCard.m */; };
+		0D157F21875B38A1715CD5C82CF8F00B /* NSString+AdyenUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 74636E30B8D9618DA9E9021BA2929E32 /* NSString+AdyenUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BBB90714FD4DDA459D4019706C7AAB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D692051EF32C02A74F6A5706D54B828B /* Foundation.framework */; };
+		1E211ECAEF5C5DF25D38DC95896E63E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D692051EF32C02A74F6A5706D54B828B /* Foundation.framework */; };
 		2BD9A41B0B67380A3D5504F9A006B74E /* Pods-AdyenCSE_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC87AC273F5D670A272DDD813A7C3C57 /* Pods-AdyenCSE_Example-dummy.m */; };
-		2FA0CF6D9686060EAE36CC249141373C /* ADYAESCCMCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8655F73DFC795727EACDF629C8C199 /* ADYAESCCMCryptor.m */; };
-		3BDD782E74586A914FF41D897B7EEF1C /* NSString+AdyenURLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5BD5697F54A5D53B2DE833C6524214 /* NSString+AdyenURLEncoding.m */; };
+		2BFE1A2D5D5F402406219633CCBAABE2 /* AdyenCSE-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 821EA4BCEDED7D09A10A5B0979F538FC /* AdyenCSE-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		427C51F5A5C0B9BDDAE10BE7AFAFE7A2 /* Pods-AdyenCSE_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE4DC71A2C79170B350F6412B2FFC4D /* Pods-AdyenCSE_Tests-dummy.m */; };
-		48FB74C0FA4CA9D8AB56CFDA924130AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		51CAE04FB245063EF49A7DC73A208927 /* ADYRSACryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = E932CAFA95F792B9BD06BCBBCCA69EE1 /* ADYRSACryptor.m */; };
-		56C37F265C646A8729391FBEB5A3DA10 /* ADYCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CC40A9D1F72D68151EF4C200BE50DE3 /* ADYCryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		500A2DEB7FFF51C79312D948075B8399 /* ADYRSACryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 04DD49AA9494F39DEE2DAB48AC782B02 /* ADYRSACryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		576B9B9F31015FE515BFABEB43398154 /* Pods-AdyenCSE_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 589ADEDA3E2A347310DF6558AEA58FB2 /* Pods-AdyenCSE_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5D76DE8290909387836D6BA8A1BD4413 /* AdyenCSE.h in Headers */ = {isa = PBXBuildFile; fileRef = D630647054E085770841DF1C81628F34 /* AdyenCSE.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6574A19045BE8111EDACE48149500EF3 /* NSString+AdyenUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 74636E30B8D9618DA9E9021BA2929E32 /* NSString+AdyenUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		695280E29125CEF33676AEA336717945 /* AdyenCSE-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 821EA4BCEDED7D09A10A5B0979F538FC /* AdyenCSE-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		789C7C580B19F961C304B4E8DDF6C669 /* NSDictionary+AdyenUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EC8597D63180424BB33C1A31DAE815E3 /* NSDictionary+AdyenUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		826C8E057904ED23A7A15663C19E8206 /* NSString+AdyenURLEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = A0229BA663AB326800E03E12ECF18811 /* NSString+AdyenURLEncoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		879D6D7B531DB7D59C254CF7C380F775 /* AdyenCSE-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 696F2CD16161B4AF713A9C7B34AABD58 /* AdyenCSE-dummy.m */; };
-		92F6155F2F71D1B1C2B0976E2EDA2653 /* NSString+AdyenUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7808C3766B9407684EF2C7945101A6 /* NSString+AdyenUtil.m */; };
-		AA579D0F9127CC906F262E85DF6392C9 /* ADYCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7D93835E4ADC4B8163ED3279C104A5 /* ADYCard.m */; };
+		5934C0A28B5385A8AF80AB9A00723A8D /* ADYCard.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C43D9808DF13C8BA82F26D3EB7DAC1D /* ADYCard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C7EFCADADB06806E9AD51186EDB1427 /* NSDictionary+AdyenUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EC8597D63180424BB33C1A31DAE815E3 /* NSDictionary+AdyenUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79B9AA976DBE5309E5AC16592B8111E2 /* NSString+AdyenURLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5BD5697F54A5D53B2DE833C6524214 /* NSString+AdyenURLEncoding.m */; };
+		7E0BE3EBEA0C456F69F45A405E80246C /* NSDictionary+AdyenUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8782250CC38F72A88AC4812DA0BC10 /* NSDictionary+AdyenUtil.m */; };
+		829C4B8096D445FBB8A1703C6D1FA1A3 /* ADYCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CC40A9D1F72D68151EF4C200BE50DE3 /* ADYCryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9095B9187E575261005DBE66EC920652 /* ADYAESCCMCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F6482C92FAED506E118B62248BAB0BE /* ADYAESCCMCryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BE10966B2B6399AB47D558ECB7FE9FC /* ADYAESCCMCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8655F73DFC795727EACDF629C8C199 /* ADYAESCCMCryptor.m */; };
+		B029C9E081AF92B2CC0D776E5093B7AE /* ADYCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F77DA181756DA06CD45CC42375AEF9F /* ADYCryptor.m */; };
+		B0910AABE3A83588DF09827569668FCB /* ADYRSACryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = E932CAFA95F792B9BD06BCBBCCA69EE1 /* ADYRSACryptor.m */; };
+		C15FE3C2045B2C8C44104D405039D1D7 /* AdyenCSE-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 696F2CD16161B4AF713A9C7B34AABD58 /* AdyenCSE-dummy.m */; };
 		C749570774B9936297BA29C26EA02C6A /* Pods-AdyenCSE_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67C4BA3154540937C8FC215DFBE6EF4B /* Pods-AdyenCSE_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CFE06F4765154801C7003022290F7B92 /* ADYRSACryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 04DD49AA9494F39DEE2DAB48AC782B02 /* ADYRSACryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D37D88F64B0A3A9877F45905B8E545FA /* ADYEncrypter.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF776B105EBB4BAD9247315A0BFE575 /* ADYEncrypter.m */; };
-		EAA179D59422DC298D0AFD4C162ACBB2 /* ADYAESCCMCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F6482C92FAED506E118B62248BAB0BE /* ADYAESCCMCryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D049E966A9B2211C20C8B386C4D48212 /* NSString+AdyenURLEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = A0229BA663AB326800E03E12ECF18811 /* NSString+AdyenURLEncoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D634B70371C055FB892E0660890C0E37 /* AdyenCSE.h in Headers */ = {isa = PBXBuildFile; fileRef = D630647054E085770841DF1C81628F34 /* AdyenCSE.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5239652F2B10B599FF927B1E3D5A4C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D692051EF32C02A74F6A5706D54B828B /* Foundation.framework */; };
+		F9DC1BC400DE8F903A10CF91D1842329 /* NSString+AdyenUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7808C3766B9407684EF2C7945101A6 /* NSString+AdyenUtil.m */; };
+		FEF0BCCF8A59DC1ED93C6C86B9734F5C /* ADYEncrypter.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF776B105EBB4BAD9247315A0BFE575 /* ADYEncrypter.m */; };
+		FF7059914AC152FB236A58A1B409C1D5 /* ADYEncrypter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C304368E0404505616C42C3C2EE6C17 /* ADYEncrypter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +41,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 65702B4F15BBB9ECC4E76F7418AC6E25;
+			remoteGlobalIDString = 5D379F6B58E1887DE13ACEB6B4AC5837;
 			remoteInfo = AdyenCSE;
 		};
 /* End PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		29E5A83989B557BD0B3E1EBD9E6FD4C5 /* Pods-AdyenCSE_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdyenCSE_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3041623A73A594FD688FB152449BC496 /* Pods-AdyenCSE_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdyenCSE_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		316141628700C1B364A7F71A4143D059 /* AdyenCSE-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AdyenCSE-prefix.pch"; sourceTree = "<group>"; };
+		35EB645053A39B4E088C0BDA3A6C9F5D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		373BAFF68EC54889F2CDB8856A3A2773 /* Pods_AdyenCSE_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdyenCSE_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37664A934C4563A4A79F219B91AEC6C3 /* Pods-AdyenCSE_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdyenCSE_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3CF653600A8778F7639CE4C5F6D69FBA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -86,9 +88,9 @@
 		BC87AC273F5D670A272DDD813A7C3C57 /* Pods-AdyenCSE_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AdyenCSE_Example-dummy.m"; sourceTree = "<group>"; };
 		BD297B08BD02F3AFEB74046205418AB7 /* Pods-AdyenCSE_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AdyenCSE_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C281F17209459B856BB43958969FCED3 /* Pods-AdyenCSE_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AdyenCSE_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CEF776B105EBB4BAD9247315A0BFE575 /* ADYEncrypter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ADYEncrypter.m; sourceTree = "<group>"; };
 		D630647054E085770841DF1C81628F34 /* AdyenCSE.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AdyenCSE.h; sourceTree = "<group>"; };
+		D692051EF32C02A74F6A5706D54B828B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D6D63A56E619059485F2EA99B39A000A /* Pods-AdyenCSE_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdyenCSE_Tests-resources.sh"; sourceTree = "<group>"; };
 		E3A644AD000797FE172BDA3B6ED55530 /* AdyenCSE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AdyenCSE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E932CAFA95F792B9BD06BCBBCCA69EE1 /* ADYRSACryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ADYRSACryptor.m; sourceTree = "<group>"; };
@@ -113,11 +115,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BCE5A34B54836746FDB41EE8557D6929 /* Frameworks */ = {
+		CF9AE981351D1DC9C28A9B0154FB3335 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48FB74C0FA4CA9D8AB56CFDA924130AC /* Foundation.framework in Frameworks */,
+				F5239652F2B10B599FF927B1E3D5A4C0 /* Foundation.framework in Frameworks */,
+				04956E6AE3E208BB5FC4927C28E372BB /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,10 +155,11 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+		3EF229062F5357F1028165A423A4C68A /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+				D692051EF32C02A74F6A5706D54B828B /* Foundation.framework */,
+				35EB645053A39B4E088C0BDA3A6C9F5D /* Security.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -166,6 +170,14 @@
 				770544364275399939C4E5ACB7D084CE /* AdyenCSE */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EF229062F5357F1028165A423A4C68A /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		4A002C9A5EBA980553F6520F6015EC5B /* Targets Support Files */ = {
@@ -224,7 +236,7 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				41077FE05C4C9EB02BB451227BE65A16 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				37A07927792BD37E76D63F3F110808A3 /* Products */,
 				4A002C9A5EBA980553F6520F6015EC5B /* Targets Support Files */,
 			);
@@ -242,14 +254,6 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/AdyenCSE";
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		F79DEF043037457FCD050BEF883ACE39 /* Pods-AdyenCSE_Example */ = {
@@ -281,28 +285,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3BC5BD49277E1C44EDF5A0FD1313E0E6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9095B9187E575261005DBE66EC920652 /* ADYAESCCMCryptor.h in Headers */,
+				5934C0A28B5385A8AF80AB9A00723A8D /* ADYCard.h in Headers */,
+				829C4B8096D445FBB8A1703C6D1FA1A3 /* ADYCryptor.h in Headers */,
+				FF7059914AC152FB236A58A1B409C1D5 /* ADYEncrypter.h in Headers */,
+				2BFE1A2D5D5F402406219633CCBAABE2 /* AdyenCSE-umbrella.h in Headers */,
+				D634B70371C055FB892E0660890C0E37 /* AdyenCSE.h in Headers */,
+				500A2DEB7FFF51C79312D948075B8399 /* ADYRSACryptor.h in Headers */,
+				6C7EFCADADB06806E9AD51186EDB1427 /* NSDictionary+AdyenUtil.h in Headers */,
+				D049E966A9B2211C20C8B386C4D48212 /* NSString+AdyenURLEncoding.h in Headers */,
+				0D157F21875B38A1715CD5C82CF8F00B /* NSString+AdyenUtil.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5931A0FBDADD4B5ECF44C4F17AB8F107 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				576B9B9F31015FE515BFABEB43398154 /* Pods-AdyenCSE_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A40DC197CB6518EF5AAD787BCEEE6C52 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EAA179D59422DC298D0AFD4C162ACBB2 /* ADYAESCCMCryptor.h in Headers */,
-				122E5F54D6F444D045DBC4521A1E3048 /* ADYCard.h in Headers */,
-				56C37F265C646A8729391FBEB5A3DA10 /* ADYCryptor.h in Headers */,
-				24B16EE0B4F976139FF08762A15E2324 /* ADYEncrypter.h in Headers */,
-				695280E29125CEF33676AEA336717945 /* AdyenCSE-umbrella.h in Headers */,
-				5D76DE8290909387836D6BA8A1BD4413 /* AdyenCSE.h in Headers */,
-				CFE06F4765154801C7003022290F7B92 /* ADYRSACryptor.h in Headers */,
-				789C7C580B19F961C304B4E8DDF6C669 /* NSDictionary+AdyenUtil.h in Headers */,
-				826C8E057904ED23A7A15663C19E8206 /* NSString+AdyenURLEncoding.h in Headers */,
-				6574A19045BE8111EDACE48149500EF3 /* NSString+AdyenUtil.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +331,23 @@
 			productReference = B9CE9AEFDB98800BA9D35041C3E64EAB /* Pods_AdyenCSE_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		5D379F6B58E1887DE13ACEB6B4AC5837 /* AdyenCSE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 633418A91E050C4706368AB4B0E72C60 /* Build configuration list for PBXNativeTarget "AdyenCSE" */;
+			buildPhases = (
+				531B9807DBF4FDFE52B0EB9E076C1C1D /* Sources */,
+				CF9AE981351D1DC9C28A9B0154FB3335 /* Frameworks */,
+				3BC5BD49277E1C44EDF5A0FD1313E0E6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdyenCSE;
+			productName = AdyenCSE;
+			productReference = E3A644AD000797FE172BDA3B6ED55530 /* AdyenCSE.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		60E0EA76C51432EE9B47193406C58FD1 /* Pods-AdyenCSE_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEBE742D2BAB2D7988E66461DDFE83FF /* Build configuration list for PBXNativeTarget "Pods-AdyenCSE_Tests" */;
@@ -342,23 +363,6 @@
 			name = "Pods-AdyenCSE_Tests";
 			productName = "Pods-AdyenCSE_Tests";
 			productReference = 373BAFF68EC54889F2CDB8856A3A2773 /* Pods_AdyenCSE_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		65702B4F15BBB9ECC4E76F7418AC6E25 /* AdyenCSE */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FC69D040DFF97CACF0E847795BDA5DC1 /* Build configuration list for PBXNativeTarget "AdyenCSE" */;
-			buildPhases = (
-				70135A1E330C08DDF49017A78B7027CC /* Sources */,
-				BCE5A34B54836746FDB41EE8557D6929 /* Frameworks */,
-				A40DC197CB6518EF5AAD787BCEEE6C52 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = AdyenCSE;
-			productName = AdyenCSE;
-			productReference = E3A644AD000797FE172BDA3B6ED55530 /* AdyenCSE.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -382,7 +386,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				65702B4F15BBB9ECC4E76F7418AC6E25 /* AdyenCSE */,
+				5D379F6B58E1887DE13ACEB6B4AC5837 /* AdyenCSE */,
 				37936BECC8B72E951A95888DEBDA733E /* Pods-AdyenCSE_Example */,
 				60E0EA76C51432EE9B47193406C58FD1 /* Pods-AdyenCSE_Tests */,
 			);
@@ -398,27 +402,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		531B9807DBF4FDFE52B0EB9E076C1C1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BE10966B2B6399AB47D558ECB7FE9FC /* ADYAESCCMCryptor.m in Sources */,
+				0C2686733ECC079DFE10FA127029B954 /* ADYCard.m in Sources */,
+				B029C9E081AF92B2CC0D776E5093B7AE /* ADYCryptor.m in Sources */,
+				FEF0BCCF8A59DC1ED93C6C86B9734F5C /* ADYEncrypter.m in Sources */,
+				C15FE3C2045B2C8C44104D405039D1D7 /* AdyenCSE-dummy.m in Sources */,
+				B0910AABE3A83588DF09827569668FCB /* ADYRSACryptor.m in Sources */,
+				7E0BE3EBEA0C456F69F45A405E80246C /* NSDictionary+AdyenUtil.m in Sources */,
+				79B9AA976DBE5309E5AC16592B8111E2 /* NSString+AdyenURLEncoding.m in Sources */,
+				F9DC1BC400DE8F903A10CF91D1842329 /* NSString+AdyenUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6342BF8979CB6667E9F4F399C47F9BF1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2BD9A41B0B67380A3D5504F9A006B74E /* Pods-AdyenCSE_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		70135A1E330C08DDF49017A78B7027CC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2FA0CF6D9686060EAE36CC249141373C /* ADYAESCCMCryptor.m in Sources */,
-				AA579D0F9127CC906F262E85DF6392C9 /* ADYCard.m in Sources */,
-				1B8EF591876A082CC28562BF238A6AF4 /* ADYCryptor.m in Sources */,
-				D37D88F64B0A3A9877F45905B8E545FA /* ADYEncrypter.m in Sources */,
-				879D6D7B531DB7D59C254CF7C380F775 /* AdyenCSE-dummy.m in Sources */,
-				51CAE04FB245063EF49A7DC73A208927 /* ADYRSACryptor.m in Sources */,
-				1DD2C447EC2634D82968A0A196DD29E5 /* NSDictionary+AdyenUtil.m in Sources */,
-				3BDD782E74586A914FF41D897B7EEF1C /* NSString+AdyenURLEncoding.m in Sources */,
-				92F6155F2F71D1B1C2B0976E2EDA2653 /* NSString+AdyenUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,7 +432,7 @@
 		9AA33B960E445D174381AC6F43835DB0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AdyenCSE;
-			target = 65702B4F15BBB9ECC4E76F7418AC6E25 /* AdyenCSE */;
+			target = 5D379F6B58E1887DE13ACEB6B4AC5837 /* AdyenCSE */;
 			targetProxy = 9133D41E95FD8813EAC3C0B07316F469 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -472,7 +476,7 @@
 			};
 			name = Release;
 		};
-		1FCE106551D03AF481FFF12E73D89A65 /* Debug */ = {
+		56C13AAB16BCD652C43FE1D119C6CE14 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 430297842BD266E52C102BA572FEC2DD /* AdyenCSE.xcconfig */;
 			buildSettings = {
@@ -500,35 +504,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		2CC48C64731333200AD9ED1560E58980 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 430297842BD266E52C102BA572FEC2DD /* AdyenCSE.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/AdyenCSE/AdyenCSE-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AdyenCSE/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AdyenCSE/AdyenCSE.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = AdyenCSE;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		75637D8A676970941A0008A558678B94 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -704,6 +679,35 @@
 			};
 			name = Release;
 		};
+		E2F292C42B567C221D454DA8F02AA413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 430297842BD266E52C102BA572FEC2DD /* AdyenCSE.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AdyenCSE/AdyenCSE-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AdyenCSE/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AdyenCSE/AdyenCSE.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AdyenCSE;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -725,20 +729,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		633418A91E050C4706368AB4B0E72C60 /* Build configuration list for PBXNativeTarget "AdyenCSE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56C13AAB16BCD652C43FE1D119C6CE14 /* Debug */,
+				E2F292C42B567C221D454DA8F02AA413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		CEBE742D2BAB2D7988E66461DDFE83FF /* Build configuration list for PBXNativeTarget "Pods-AdyenCSE_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9DE45C202010D6DFFF2056C61053670E /* Debug */,
 				D722DCC88B88E5C8DC54E0B775491297 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FC69D040DFF97CACF0E847795BDA5DC1 /* Build configuration list for PBXNativeTarget "AdyenCSE" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1FCE106551D03AF481FFF12E73D89A65 /* Debug */,
-				2CC48C64731333200AD9ED1560E58980 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
