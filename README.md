@@ -2,11 +2,13 @@
 This repository contains Adyen's Client Side Encryption (CSE) library for iOS. With CSE card data is encrypted within the client, in this case the iOS device, before you submit it via your own server to the Adyen API. By using CSE you reduce your scope of PCI compliance, because no raw card data travels through your server. This repository can be leveraged as a starting point to integrate Adyen's payment functionality fully in-app.
 
 ## Requirements
-The AdyenCSE-iOS library is written in Objective-C and is compatible with apps supporting iOS 7.0 and up. Looking for the Android or web equivalent? We have the CSE library also available written in Java ([AdyenCSE-Android]()) and JavaScript ([AdyenCSE-web]()).
+The AdyenCSE-iOS library is written in Objective-C and is compatible with apps supporting iOS 7.0 and up. Looking for the Android or web equivalent? We have the CSE library also available written in Java ([AdyenCSE-Android](https://github.com/Adyen/AdyenCSE-Android)) and JavaScript ([AdyenCSE-web](https://github.com/Adyen/CSE-JS)).
 
 All our CSE libraries rely on you [setting up your own server](https://docs.adyen.com/developers/easy-encryption#cardintegration) for communicating with the Adyen API. By using a server you ensure that API authentication credentials never get exposed. Please note that you need to have [signed up for an account at Adyen](https://www.adyen.com/signup) before you can send requests to the Adyen API.
 
 ## Example
+
+For you convenience we've included an example app in this repository that can be used as a reference while integrating. 
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
