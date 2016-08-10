@@ -10,7 +10,11 @@ All our CSE libraries rely on you [setting up your own server](https://docs.adye
 
 For you convenience we've included an example app in this repository that can be used as a reference while integrating. 
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+To run the example project, type in the terminal:
+
+```ruby
+pod try AdyenCSE
+```
 
 ## Installation
 
