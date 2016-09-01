@@ -1,5 +1,5 @@
 # Adyen CSE for iOS
-[![Build Status](https://travis-ci.org/Adyen/AdyenCSE-iOS.svg?branch=master)](https://travis-ci.org/Adyen/AdyenCSE-iOS)
+[![Build Status](https://travis-ci.org/Adyen/adyen-cse-ios.svg?branch=master)](https://travis-ci.org/Adyen/AdyenCSE-iOS)
 [![CocoaPods](https://img.shields.io/cocoapods/v/AdyenCSE.svg?style=flat)](http://cocoapods.org/?q=name%3AAdyenCSE)
 [![CocoaPods](https://img.shields.io/cocoapods/p/AdyenCSE.svg?style=flat)](https://github.com/Adyen/AdyenCSE-iOS)
 
