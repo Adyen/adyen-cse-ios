@@ -24,10 +24,10 @@
 
 @implementation ADYViewController
 
-#error Set merchant public key.
+#error Set your public key.
 static NSString * publicKey = @"";
 
-#error Set merchnat server payment authorisation enpoint URL.
+#error Set the payment authorisation URL on your server.
 static NSString * merchantPaymentAuthoriseUrl = @"";
 
 - (void)viewDidLoad
@@ -55,10 +55,10 @@ static NSString * merchantPaymentAuthoriseUrl = @"";
         return;
     }
     
-    //  Encrypt credit card details.
+    // Encrypt card details.
     NSString *encryptedCardDetails = [self encryptedCardDetails];
     
-    //  Submit encrypted card details to merchnat server.
+    // Submit encrypted card details to the merchant server.
     [self submitEncryptedCardDetails:encryptedCardDetails];
 }
 
@@ -72,7 +72,7 @@ static NSString * merchantPaymentAuthoriseUrl = @"";
 #pragma mark - Encryption
 
 - (NSString *)encryptedCardDetails {
-    //  Create card details object.
+    // Create a card details object.
     ADYCard *card = [ADYCard new];
     card.generationtime = [NSDate new];
     card.holderName = self.nameTextField.text;
@@ -81,21 +81,21 @@ static NSString * merchantPaymentAuthoriseUrl = @"";
     card.expiryYear = self.yearTextField.text;
     card.cvc = self.securityCodeTextField.text;
     
-    //  Encrypt card details.
+    // Encrypt card details.
     NSData *cardData = [card encode];
     NSString *encryptedDetails = [ADYEncrypter encrypt:cardData publicKeyInHex:publicKey];
     
     return encryptedDetails;
 }
 
-#pragma mark - Merchnat Server Submission
+#pragma mark - Merchant Server Submission
 
 - (void)submitEncryptedCardDetails:(NSString *)encryptedCardDetails {
     NSURL *url = [NSURL URLWithString:merchantPaymentAuthoriseUrl];
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
     request.HTTPMethod = @"POST";
 
-    //  URL-encode encrypted card details parameter.
+    // URL-encode encrypted card details parameter.
     NSString *body = [NSString stringWithFormat:@"encryptedCard=%@",
                       [encryptedCardDetails urlEncodeUsingEncoding:NSUTF8StringEncoding]];
     request.HTTPBody = [body dataUsingEncoding:NSUTF8StringEncoding];
@@ -114,13 +114,13 @@ static NSString * merchantPaymentAuthoriseUrl = @"";
                 }
                 
                 dispatch_async(dispatch_get_main_queue(), ^{
-                    [self presentMerchnatServerResponseWithMessage:message];
+                    [self presentMerchantServerResponseWithMessage:message];
                 });
             }];
     [task resume];
 }
 
-- (void)presentMerchnatServerResponseWithMessage:(NSString *)message {
+- (void)presentMerchantServerResponseWithMessage:(NSString *)message {
     UIAlertController *alertController = [UIAlertController alertControllerWithTitle:NSLocalizedString(@"Merchant Server Response", nil)
                                                                              message:message
                                                                       preferredStyle:UIAlertControllerStyleAlert];
