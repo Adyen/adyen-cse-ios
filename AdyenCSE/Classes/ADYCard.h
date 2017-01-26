@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
+NS_SWIFT_NAME(Card)
 @interface ADYCard : NSObject
 @property (nonatomic, strong, nullable) NSDate* generationtime;
 @property (nonatomic, strong, nullable) NSString* number;

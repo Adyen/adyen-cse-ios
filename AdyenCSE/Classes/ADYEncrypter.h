@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "ADYCryptor.h"
 
+NS_SWIFT_NAME(Encrypter)
 @interface ADYEncrypter : ADYCryptor
 
 /**

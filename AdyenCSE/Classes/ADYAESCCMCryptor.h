@@ -10,6 +10,7 @@
 
 #define ADYC_AESCCM_TraceLog 0
 
+NS_SWIFT_NAME(AESCCMCryptor)
 @interface ADYAESCCMCryptor : NSObject
 
 + (nonnull NSData *)encrypt:(nonnull NSData *)data withKey:(nonnull NSData *)key iv:(nonnull NSData *)iv;
