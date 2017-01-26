@@ -12,8 +12,8 @@
 
 @interface ADYAESCCMCryptor : NSObject
 
-+ (NSData *)encrypt:(NSData *)data withKey:(NSData *)key iv:(NSData *)iv;
-+ (NSData *)encrypt:(NSData *)data withKey:(NSData *)key iv:(NSData *)iv
-          tagLength:(size_t)tagLength adata:(NSData *)adata;
++ (nonnull NSData *)encrypt:(nonnull NSData *)data withKey:(nonnull NSData *)key iv:(nonnull NSData *)iv;
++ (nonnull NSData *)encrypt:(nonnull NSData *)data withKey:(nonnull NSData *)key iv:(nonnull NSData *)iv
+          tagLength:(size_t)tagLength adata:(nullable NSData *)adata;
 
 @end

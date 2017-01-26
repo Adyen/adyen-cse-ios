@@ -10,6 +10,6 @@
 
 @interface NSString (AdyenURLEncoding)
 
-- (NSString *)urlEncodeUsingEncoding:(NSStringEncoding)encoding;
+- (nullable NSString *)urlEncodeUsingEncoding:(NSStringEncoding)encoding;
 
 @end

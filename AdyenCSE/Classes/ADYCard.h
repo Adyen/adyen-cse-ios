@@ -9,13 +9,13 @@
 #import <Foundation/Foundation.h>
 
 @interface ADYCard : NSObject
-@property (nonatomic, strong) NSDate* generationtime;
-@property (nonatomic, strong) NSString* number;
-@property (nonatomic, strong) NSString* holderName;
-@property (nonatomic, strong) NSString* cvc;
-@property (nonatomic, strong) NSString* expiryMonth;
-@property (nonatomic, strong) NSString* expiryYear;
+@property (nonatomic, strong, nullable) NSDate* generationtime;
+@property (nonatomic, strong, nullable) NSString* number;
+@property (nonatomic, strong, nullable) NSString* holderName;
+@property (nonatomic, strong, nullable) NSString* cvc;
+@property (nonatomic, strong, nullable) NSString* expiryMonth;
+@property (nonatomic, strong, nullable) NSString* expiryYear;
 
-+ (ADYCard*)decode:(NSData*)json error:(NSError**)error;
-- (NSData*)encode;
++ (nullable ADYCard*)decode:(nonnull NSData*)json error:(NSError * _Nullable * _Nullable)error;
+- (nullable NSData*)encode;
 @end

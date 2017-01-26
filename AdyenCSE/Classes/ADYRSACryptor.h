@@ -10,6 +10,6 @@
 
 @interface ADYRSACryptor : NSObject
 
-+ (NSData *)encrypt:(NSData *)data withKeyInHex:(NSString *)keyInHex;
++ (nullable NSData *)encrypt:(nonnull NSData *)data withKeyInHex:(nonnull NSString *)keyInHex;
 
 @end

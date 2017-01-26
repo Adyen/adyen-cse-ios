@@ -9,12 +9,12 @@
 #import "ADYCard.h"
 
 @interface ADYCard ()
-@property (readonly) NSDateFormatter* dateFormatter;
+@property (readonly, nonnull) NSDateFormatter* dateFormatter;
 @end
 
 @implementation ADYCard
 
-+ (ADYCard*)decode:(NSData*)json error:(NSError**)error {
++ (nullable ADYCard*)decode:(NSData*)json error:(NSError**)error {
     id result = [NSJSONSerialization JSONObjectWithData:json options:0 error:error];
     if(!result) {
         return nil;
@@ -32,7 +32,7 @@
     }
 }
 
-- (NSData*)encode {
+- (nullable NSData*)encode {
     NSMutableDictionary* dict = [NSMutableDictionary dictionary];
     
     for(NSString* key in @[ @"number", @"holderName", @"cvc", @"expiryMonth", @"expiryYear" ]) {
@@ -47,7 +47,7 @@
     return [NSJSONSerialization dataWithJSONObject:dict options:0 error:nil];
 }
 
-- (NSDateFormatter*)dateFormatter {
+- (nonnull NSDateFormatter*)dateFormatter {
     static dispatch_once_t once;
     static NSDateFormatter* instance;
     dispatch_once(&once, ^{

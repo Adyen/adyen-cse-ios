@@ -10,6 +10,6 @@
 
 @interface NSDictionary (AdyenUtil)
 
-- (NSString*)encodeFormData;
+- (nonnull NSString*)encodeFormData;
 
 @end

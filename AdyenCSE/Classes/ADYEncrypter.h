@@ -30,6 +30,6 @@
  *  @see `setMsgPrefix:`
  *  @see `setMsgSeparator:`
  */
-+ (NSString *)encrypt:(NSData *)data publicKeyInHex:(NSString *)keyInHex;
++ (nullable NSString *)encrypt:(nonnull NSData *)data publicKeyInHex:(nonnull NSString *)keyInHex;
 
 @end

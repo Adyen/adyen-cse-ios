@@ -11,5 +11,5 @@
 @interface NSString (AdyenUtil)
 
 - (BOOL)isHexString;
-- (NSString*)URLEncodedString;
+- (nullable NSString*)URLEncodedString;
 @end
