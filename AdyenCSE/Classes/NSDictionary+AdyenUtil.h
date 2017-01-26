@@ -10,6 +10,6 @@
 
 @interface NSDictionary (AdyenUtil)
 
-- (nonnull NSString*)encodeFormData;
+- (nonnull NSString*)encodeFormData NS_SWIFT_UNAVAILABLE("");
 
 @end

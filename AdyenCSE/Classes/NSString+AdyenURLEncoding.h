@@ -10,6 +10,6 @@
 
 @interface NSString (AdyenURLEncoding)
 
-- (nullable NSString *)urlEncodeUsingEncoding:(NSStringEncoding)encoding;
+- (nullable NSString *)urlEncodeUsingEncoding:(NSStringEncoding)encoding NS_SWIFT_UNAVAILABLE("");
 
 @end

@@ -10,6 +10,6 @@
 
 @interface NSString (AdyenUtil)
 
-- (BOOL)isHexString;
-- (nullable NSString*)URLEncodedString;
+- (BOOL)isHexString NS_SWIFT_UNAVAILABLE("");
+- (nullable NSString*)URLEncodedString NS_SWIFT_UNAVAILABLE("");
 @end
