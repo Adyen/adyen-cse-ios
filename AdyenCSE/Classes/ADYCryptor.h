@@ -16,14 +16,14 @@ NS_SWIFT_NAME(Cryptor)
  *
  *  @param prefix Prefix string, default: ""
  */
-+ (void)setMsgPrefix:(nullable NSString *)prefix;
++ (void)setMsgPrefix:(nullable NSString *)prefix NS_SWIFT_NAME(setMessagePrefix(_:));
 
 /**
  *  Sets encoded message separator
  *
  *  @param separator Message separator, default: "$"
  */
-+ (void)setMsgSeparator:(nullable NSString *)separator;
++ (void)setMsgSeparator:(nullable NSString *)separator NS_SWIFT_NAME(setMessageSeparator(_:));
 
 
 /**
