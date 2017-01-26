@@ -65,7 +65,7 @@ let publicKey = "10001|B243E873CB9220BAFE71..."
 
 // Create a card object.
 let card = Card()
-card.generationTime = NSDate()
+card.generationTime = Date()
 card.number = "55551..."
 card.holderName = "John A..."
 card.cvc = "737"
