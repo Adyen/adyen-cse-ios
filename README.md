@@ -74,7 +74,7 @@ card.expiryYear = "2018"
 
 // Encrypt card data.
 guard let cardData = card.encode() else {
-print("Encoding failed")
+    print("Encoding failed")
 }
 let encryptedCard = Encrypter.encrypt(cardData, publicKeyInHex: `publicKey)
 ```
@@ -96,7 +96,7 @@ request.HTTPBody = [body dataUsingEncoding:NSUTF8StringEncoding];
 
 ```swift
 guard let url = URL(string: merchantPaymentAuthoriseUrl) else {
-print("Invalid Merchant Payment Authorise URL")
+    print("Invalid Merchant Payment Authorise URL")
 }
 let request = URLRequest(url: url)
 request.httpMethod = "POST"
