@@ -10,7 +10,7 @@
 
 NS_SWIFT_NAME(Card)
 @interface ADYCard : NSObject
-@property (nonatomic, strong, nullable) NSDate* generationtime;
+@property (nonatomic, strong, nullable) NSDate* generationtime NS_SWIFT_NAME(generationTime);
 @property (nonatomic, strong, nullable) NSString* number;
 @property (nonatomic, strong, nullable) NSString* holderName;
 @property (nonatomic, strong, nullable) NSString* cvc;
