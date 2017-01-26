@@ -8,8 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
+NS_SWIFT_NAME(RSACryptor)
 @interface ADYRSACryptor : NSObject
 
-+ (NSData *)encrypt:(NSData *)data withKeyInHex:(NSString *)keyInHex;
++ (nullable NSData *)encrypt:(nonnull NSData *)data withKeyInHex:(nonnull NSString *)keyInHex;
 
 @end

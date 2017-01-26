@@ -10,7 +10,7 @@
 
 @implementation NSString (AdyenURLEncoding)
 
--(NSString *)urlEncodeUsingEncoding:(NSStringEncoding)encoding {
+-(nullable NSString *)urlEncodeUsingEncoding:(NSStringEncoding)encoding {
     return (NSString *)CFBridgingRelease(CFURLCreateStringByAddingPercentEscapes(NULL,
                                                                                  (CFStringRef)self,
                                                                                  NULL,

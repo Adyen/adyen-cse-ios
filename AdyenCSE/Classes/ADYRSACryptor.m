@@ -14,7 +14,7 @@
 
 @implementation ADYRSACryptor
 
-+ (NSData *)encrypt:(NSData *)data withKeyInHex:(NSString *)keyInHex {
++ (nullable NSData *)encrypt:(nonnull NSData *)data withKeyInHex:(nonnull NSString *)keyInHex {
     NSString *fingerprint = [[ADYCryptor sha1FromStringInHex:keyInHex] base64EncodedStringWithOptions:0];
 
     SecKeyRef publicKey = [self loadRSAPublicKeyRefWithAppTag:fingerprint];
@@ -126,7 +126,7 @@
     return buffer;
 }
 
-+ (BOOL)saveRSAPublicKey:(NSData*)publicKey appTag:(NSString *)appTag overwrite:(BOOL)overwrite
++ (BOOL)saveRSAPublicKey:(nonnull NSData*)publicKey appTag:(nonnull NSString *)appTag overwrite:(BOOL)overwrite
 {
     
     NSDictionary *query = nil;
@@ -154,7 +154,7 @@
     return NO;
 }
 
-+ (BOOL)updateRSAPublicKey:(NSData*)publicKey appTag:(NSString*)appTag
++ (BOOL)updateRSAPublicKey:(nonnull NSData*)publicKey appTag:(nonnull NSString*)appTag
 {
     NSDictionary *query = nil;
     query = @{
@@ -185,7 +185,7 @@
     return NO;
 }
 
-+ (BOOL)deleteRSAPublicKeyWithAppTag:(NSString*)appTag
++ (BOOL)deleteRSAPublicKeyWithAppTag:(nonnull NSString*)appTag
 {
     NSDictionary *query = nil;
     query = @{
@@ -205,7 +205,7 @@
  * returned value(SecKeyRef) should be released with CFRelease() function after use.
  *
  */
-+ (SecKeyRef)loadRSAPublicKeyRefWithAppTag:(NSString*)appTag
++ (SecKeyRef)loadRSAPublicKeyRefWithAppTag:(nonnull NSString*)appTag
 {
     NSDictionary *query = nil;
     query = @{
@@ -233,7 +233,7 @@
  * padding = kSecPaddingPKCS1 / kSecPaddingNone
  * 
  */
-+ (NSData *)encrypt:(NSData *)original RSAPublicKey:(SecKeyRef)publicKey padding:(SecPadding)padding
++ (nullable NSData *)encrypt:(nonnull NSData *)original RSAPublicKey:(SecKeyRef)publicKey padding:(SecPadding)padding
 {
     @try
     {

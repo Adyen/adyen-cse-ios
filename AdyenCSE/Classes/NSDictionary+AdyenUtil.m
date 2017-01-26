@@ -11,7 +11,7 @@
 
 @implementation NSDictionary (AdyenUtil)
 
-- (NSString*)encodeFormData {
+- (nonnull NSString*)encodeFormData {
     NSMutableString* s = [NSMutableString string];
     [self enumerateKeysAndObjectsUsingBlock:^(NSString* key, NSString* value, BOOL *stop) {
         if(s.length) {

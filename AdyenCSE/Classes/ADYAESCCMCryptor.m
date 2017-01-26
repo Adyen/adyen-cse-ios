@@ -18,17 +18,17 @@ NSData *dh(unsigned char *d) {
 #endif
 
 
-+ (NSData *)encrypt:(NSData *)data withKey:(NSData *)key iv:(NSData *)iv
++ (nonnull NSData *)encrypt:(nonnull NSData *)data withKey:(nonnull NSData *)key iv:(nonnull NSData *)iv
 {
     return [self encrypt:data withKey:key iv:iv tagLength:8];
 }
 
-+ (NSData *)encrypt:(NSData *)data withKey:(NSData *)key iv:(NSData *)iv tagLength:(size_t)tagLength {
++ (nonnull NSData *)encrypt:(nonnull NSData *)data withKey:(nonnull NSData *)key iv:(nonnull NSData *)iv tagLength:(size_t)tagLength {
     return [self encrypt:data withKey:key iv:iv tagLength:tagLength adata:nil];
 }
 
-+ (NSData *)encrypt:(NSData *)data withKey:(NSData *)key iv:(NSData *)iv
-          tagLength:(size_t)tagLength adata:(NSData *)adata {
++ (nonnull NSData *)encrypt:(nonnull NSData *)data withKey:(nonnull NSData *)key iv:(nonnull NSData *)iv
+          tagLength:(size_t)tagLength adata:(nullable NSData *)adata {
     
     NSMutableData *cipher = [NSMutableData dataWithBytes:data.bytes length:(data.length + tagLength)];
     

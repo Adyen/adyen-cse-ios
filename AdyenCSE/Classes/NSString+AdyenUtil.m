@@ -26,7 +26,7 @@
            (c >= 'A' && c <= 'F');
 }
 
-- (NSString*)URLEncodedString {
+- (nullable NSString*)URLEncodedString {
     return (NSString *)CFBridgingRelease(CFURLCreateStringByAddingPercentEscapes(
                                                                                  NULL,
                                                                                  (CFStringRef)self,

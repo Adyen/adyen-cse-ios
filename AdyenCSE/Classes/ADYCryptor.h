@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
+NS_SWIFT_NAME(Cryptor)
 @interface ADYCryptor : NSObject
 
 /**
@@ -15,14 +16,14 @@
  *
  *  @param prefix Prefix string, default: ""
  */
-+ (void)setMsgPrefix:(NSString *)prefix;
++ (void)setMsgPrefix:(nullable NSString *)prefix NS_SWIFT_NAME(setMessagePrefix(_:));
 
 /**
  *  Sets encoded message separator
  *
  *  @param separator Message separator, default: "$"
  */
-+ (void)setMsgSeparator:(NSString *)separator;
++ (void)setMsgSeparator:(nullable NSString *)separator NS_SWIFT_NAME(setMessageSeparator(_:));
 
 
 /**
@@ -44,13 +45,12 @@
  *  @see `setMsgPrefix:`
  *  @see `setMsgSeparator:`
  */
-+ (NSString *)encrypt:(NSData *)data publicKeyInHex:(NSString *)keyInHex;
++ (nullable NSString *)encrypt:(nonnull NSData *)data publicKeyInHex:(nonnull NSString *)keyInHex;
 
-+ (NSData *)aesEncrypt:(NSData *)data withKey:(NSData *)key iv:(NSData *)iv;
-+ (NSData *)rsaEncrypt:(NSData *)data withKeyInHex:(NSString *)keyInHex;
++ (nonnull NSData *)aesEncrypt:(nonnull NSData *)data withKey:(nonnull NSData *)key iv:(nonnull NSData *)iv;
++ (nullable NSData *)rsaEncrypt:(nonnull NSData *)data withKeyInHex:(nonnull NSString *)keyInHex;
 
-
-+ (NSData *)dataFromHex:(NSString *)hex;
-+ (NSData *)sha1FromStringInHex:(NSString *)stringInHex;
++ (nonnull NSData *)dataFromHex:(nonnull NSString *)hex;
++ (nullable NSData *)sha1FromStringInHex:(nonnull NSString *)stringInHex;
 
 @end

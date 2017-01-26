@@ -18,29 +18,33 @@ static NSString* crypt_msg_prefix = @"";
 static NSString* crypt_msg_separator = @"$";
 static NSUInteger crypt_ivLength = 12;
 
-+ (void)setMsgPrefix:(NSString *)prefix {
++ (void)setMsgPrefix:(nullable NSString *)prefix {
     if (!prefix) {
         prefix = @"";
     }
     crypt_msg_prefix = prefix;
 }
 
-+ (void)setMsgSeparator:(NSString *)separator {
++ (void)setMsgSeparator:(nullable NSString *)separator {
     if (!separator) {
         separator = @"$";
     }
     crypt_msg_separator = separator;
 }
 
-+ (NSString *)encrypt:(NSData *)data publicKeyInHex:(NSString *)keyInHex
++ (nullable NSString *)encrypt:(nonnull NSData *)data publicKeyInHex:(nonnull NSString *)keyInHex
 {
     // generate a unique AES key and (later) encrypt it with the public RSA key of the merchant
     NSMutableData *key = [NSMutableData dataWithLength:kCCKeySizeAES256];
-    SecRandomCopyBytes(NULL, kCCKeySizeAES256, key.mutableBytes);
+    if (SecRandomCopyBytes(NULL, kCCKeySizeAES256, key.mutableBytes) != 0) {
+        return nil;
+    }
     
     // generate a nonce
     NSMutableData *iv = [NSMutableData dataWithLength:crypt_ivLength];
-    SecRandomCopyBytes(NULL, crypt_ivLength, iv.mutableBytes);
+    if (SecRandomCopyBytes(NULL, crypt_ivLength, iv.mutableBytes) != 0) {
+        return nil;
+    }
     
     NSData *cipherText = [self aesEncrypt:data withKey:key iv:iv];
     
@@ -76,18 +80,18 @@ static NSUInteger crypt_ivLength = 12;
 }
 
 #pragma mark - Wrappers
-+ (NSData *)aesEncrypt:(NSData *)data withKey:(NSData *)key iv:(NSData *)iv
++ (nonnull NSData *)aesEncrypt:(nonnull NSData *)data withKey:(nonnull NSData *)key iv:(nonnull NSData *)iv
 {
     return [ADYAESCCMCryptor encrypt:data withKey:key iv:iv];
 }
 
-+ (NSData *)rsaEncrypt:(NSData *)data withKeyInHex:(NSString *)keyInHex {
++ (nullable NSData *)rsaEncrypt:(nonnull NSData *)data withKeyInHex:(nonnull NSString *)keyInHex {
     return [ADYRSACryptor encrypt:data withKeyInHex:keyInHex];
 }
 
 #pragma mark - Helpers
 
-+ (NSData *)dataFromHex:(NSString *)hex {
++ (nonnull NSData *)dataFromHex:(nonnull NSString *)hex {
     hex = [hex stringByReplacingOccurrencesOfString:@" " withString:@""];
     if (hex.length & 1) {
         hex = [@"0" stringByAppendingString:hex];
@@ -106,7 +110,7 @@ static NSUInteger crypt_ivLength = 12;
 }
 
 
-+ (NSData *)sha1FromStringInHex:(NSString *)stringInHex {
++ (nullable NSData *)sha1FromStringInHex:(nonnull NSString *)stringInHex {
     NSMutableData *digest = [NSMutableData dataWithCapacity:CC_SHA1_DIGEST_LENGTH];
     NSData *stringBytes = [stringInHex dataUsingEncoding:NSUTF8StringEncoding];
     if (CC_SHA1(stringBytes.bytes, (CC_LONG)stringBytes.length, digest.mutableBytes)) {
