@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage                = 'https://github.com/Adyen/AdyenCSE-iOS'
   s.license                 = { :type => 'MIT', :file => 'LICENSE' }
   s.author                  = { 'Adyen' => 'support@adyen.com' }
-  s.source                  = { :git => 'https://github.com/Adyen/AdyenCSE-iOS.git', :tag => "v#{s.version}" }
+  s.source                  = { :git => 'https://github.com/Adyen/AdyenCSE-iOS.git', :tag => "#{s.version}" }
   s.ios.deployment_target   = '7.0'
   s.source_files            = 'AdyenCSE/Classes/**/*'
   s.frameworks              = 'Foundation', 'Security'
