@@ -15,8 +15,11 @@
 }
 
 + (NSString *)encrypt:(NSData *)data publicKeyInHex:(NSString *)keyInHex {
+    if (data == nil || keyInHex == nil) {
+        return nil;
+    }
+    
     return [super encrypt:data publicKeyInHex:keyInHex];
 }
-
 
 @end

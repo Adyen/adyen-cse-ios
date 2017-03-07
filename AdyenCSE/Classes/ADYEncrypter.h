@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 #import "ADYCryptor.h"
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface ADYEncrypter : ADYCryptor
 
 /**
@@ -30,6 +32,8 @@
  *  @see `setMsgPrefix:`
  *  @see `setMsgSeparator:`
  */
-+ (NSString *)encrypt:(NSData *)data publicKeyInHex:(NSString *)keyInHex;
++ (nullable NSString *)encrypt:(NSData *)data publicKeyInHex:(NSString *)keyInHex;
 
 @end
+
+NS_ASSUME_NONNULL_END
