@@ -36,11 +36,15 @@ static NSUInteger crypt_ivLength = 12;
 {
     // generate a unique AES key and (later) encrypt it with the public RSA key of the merchant
     NSMutableData *key = [NSMutableData dataWithLength:kCCKeySizeAES256];
-    SecRandomCopyBytes(NULL, kCCKeySizeAES256, key.mutableBytes);
+    if (SecRandomCopyBytes(NULL, kCCKeySizeAES256, key.mutableBytes) != 0) {
+        return nil;
+    }
     
     // generate a nonce
     NSMutableData *iv = [NSMutableData dataWithLength:crypt_ivLength];
-    SecRandomCopyBytes(NULL, crypt_ivLength, iv.mutableBytes);
+    if (SecRandomCopyBytes(NULL, crypt_ivLength, iv.mutableBytes) != 0) {
+        return nil;
+    }
     
     NSData *cipherText = [self aesEncrypt:data withKey:key iv:iv];
     
