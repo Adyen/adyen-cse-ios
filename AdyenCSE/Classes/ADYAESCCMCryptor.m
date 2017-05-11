@@ -164,7 +164,7 @@ ccm_mac(const void *key, size_t kL,
 
 /**
  * Creates the CBC-MAC for the additional authentication data that
- * is sent in cleartext.
+ * is sent in cleartext. The result is written to `X`.
  *
  * @param key The AES key
  * @param kL  The AES key length
@@ -175,7 +175,6 @@ ccm_mac(const void *key, size_t kL,
  *             authentication block.
  * @param X    The output buffer where the result of the CBC calculation
  *             is placed.
- * @return     The result is written to `X`.
  */
 static void
 ccm_add_auth_data(const void *key, size_t kL,
@@ -232,21 +231,21 @@ ccm_add_auth_data(const void *key, size_t kL,
  * Authenticates and encrypts a message using AES in CCM mode. Please
  * see also RFC 3610 for the meaning of  M,  L,  lm and  la.
  *
- * @param key The AES key
- * @param kL  The AES key length
- * @param M   The number of authentication octets.
- * @param L   The number of bytes used to encode the message length.
- * @param N   The nonce value to use. You must provide  CCM_BLOCKSIZE
- *            nonce octets, although only the first  16 -  L are used.
- * @param msg The message to encrypt. The first  la octets are additional
- *            authentication data that will be cleartext. Note that the
- *            encryption operation modifies the contents of  msg and adds
- *             M bytes MAC. Therefore, the buffer must be at least
- *             lm +  M bytes large.
- * @param lm  The actual length of  msg.
- * @param aad A pointer to the additional authentication data (can be  NULL if
- *             la is zero).
- * @param la  The number of additional authentication octets (may be zero).
+ * @param key   The AES key
+ * @param kL    The AES key length
+ * @param M     The number of authentication octets.
+ * @param L     The number of bytes used to encode the message length.
+ * @param nonce The nonce value to use. You must provide  CCM_BLOCKSIZE
+ *              nonce octets, although only the first  16 -  L are used.
+ * @param msg   The message to encrypt. The first  la octets are additional
+ *              authentication data that will be cleartext. Note that the
+ *              encryption operation modifies the contents of  msg and adds
+ *              M bytes MAC. Therefore, the buffer must be at least
+ *              lm +  M bytes large.
+ * @param lm    The actual length of  msg.
+ * @param aad   A pointer to the additional authentication data (can be  NULL if
+ *              la is zero).
+ * @param la    The number of additional authentication octets (may be zero).
  * @return length
  */
 size_t
