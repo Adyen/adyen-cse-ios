@@ -1,16 +1,16 @@
 PODS:
-  - AdyenCSE (1.0.2)
+  - AdyenCSE (1.0.4)
 
 DEPENDENCIES:
   - AdyenCSE (from `../`)
 
 EXTERNAL SOURCES:
   AdyenCSE:
-    :path: "../"
+    :path: ../
 
 SPEC CHECKSUMS:
-  AdyenCSE: 58b995eed5f6c25ec8dcddd389b86d0734c81563
+  AdyenCSE: d75eb9c7770af1ca5f9f3ff37e588c310754667b
 
-PODFILE CHECKSUM: 5feb29907b23654a96d27fa501e2ef759cead5c2
+PODFILE CHECKSUM: 92549075b7533dd638b514552fa655d0fafa14bf
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.2.1

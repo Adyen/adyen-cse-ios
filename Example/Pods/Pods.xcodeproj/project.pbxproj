@@ -7,167 +7,136 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04956E6AE3E208BB5FC4927C28E372BB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35EB645053A39B4E088C0BDA3A6C9F5D /* Security.framework */; };
-		0C2686733ECC079DFE10FA127029B954 /* ADYCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7D93835E4ADC4B8163ED3279C104A5 /* ADYCard.m */; };
-		0D157F21875B38A1715CD5C82CF8F00B /* NSString+AdyenUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 74636E30B8D9618DA9E9021BA2929E32 /* NSString+AdyenUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1BBB90714FD4DDA459D4019706C7AAB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D692051EF32C02A74F6A5706D54B828B /* Foundation.framework */; };
-		1E211ECAEF5C5DF25D38DC95896E63E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D692051EF32C02A74F6A5706D54B828B /* Foundation.framework */; };
-		2BD9A41B0B67380A3D5504F9A006B74E /* Pods-AdyenCSE_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC87AC273F5D670A272DDD813A7C3C57 /* Pods-AdyenCSE_Example-dummy.m */; };
-		2BFE1A2D5D5F402406219633CCBAABE2 /* AdyenCSE-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 821EA4BCEDED7D09A10A5B0979F538FC /* AdyenCSE-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		427C51F5A5C0B9BDDAE10BE7AFAFE7A2 /* Pods-AdyenCSE_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE4DC71A2C79170B350F6412B2FFC4D /* Pods-AdyenCSE_Tests-dummy.m */; };
-		500A2DEB7FFF51C79312D948075B8399 /* ADYRSACryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 04DD49AA9494F39DEE2DAB48AC782B02 /* ADYRSACryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		576B9B9F31015FE515BFABEB43398154 /* Pods-AdyenCSE_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 589ADEDA3E2A347310DF6558AEA58FB2 /* Pods-AdyenCSE_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5934C0A28B5385A8AF80AB9A00723A8D /* ADYCard.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C43D9808DF13C8BA82F26D3EB7DAC1D /* ADYCard.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6C7EFCADADB06806E9AD51186EDB1427 /* NSDictionary+AdyenUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EC8597D63180424BB33C1A31DAE815E3 /* NSDictionary+AdyenUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79B9AA976DBE5309E5AC16592B8111E2 /* NSString+AdyenURLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5BD5697F54A5D53B2DE833C6524214 /* NSString+AdyenURLEncoding.m */; };
-		7E0BE3EBEA0C456F69F45A405E80246C /* NSDictionary+AdyenUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8782250CC38F72A88AC4812DA0BC10 /* NSDictionary+AdyenUtil.m */; };
-		829C4B8096D445FBB8A1703C6D1FA1A3 /* ADYCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CC40A9D1F72D68151EF4C200BE50DE3 /* ADYCryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9095B9187E575261005DBE66EC920652 /* ADYAESCCMCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F6482C92FAED506E118B62248BAB0BE /* ADYAESCCMCryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9BE10966B2B6399AB47D558ECB7FE9FC /* ADYAESCCMCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8655F73DFC795727EACDF629C8C199 /* ADYAESCCMCryptor.m */; };
-		B029C9E081AF92B2CC0D776E5093B7AE /* ADYCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F77DA181756DA06CD45CC42375AEF9F /* ADYCryptor.m */; };
-		B0910AABE3A83588DF09827569668FCB /* ADYRSACryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = E932CAFA95F792B9BD06BCBBCCA69EE1 /* ADYRSACryptor.m */; };
-		C15FE3C2045B2C8C44104D405039D1D7 /* AdyenCSE-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 696F2CD16161B4AF713A9C7B34AABD58 /* AdyenCSE-dummy.m */; };
-		C749570774B9936297BA29C26EA02C6A /* Pods-AdyenCSE_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67C4BA3154540937C8FC215DFBE6EF4B /* Pods-AdyenCSE_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D049E966A9B2211C20C8B386C4D48212 /* NSString+AdyenURLEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = A0229BA663AB326800E03E12ECF18811 /* NSString+AdyenURLEncoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D634B70371C055FB892E0660890C0E37 /* AdyenCSE.h in Headers */ = {isa = PBXBuildFile; fileRef = D630647054E085770841DF1C81628F34 /* AdyenCSE.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5239652F2B10B599FF927B1E3D5A4C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D692051EF32C02A74F6A5706D54B828B /* Foundation.framework */; };
-		F9DC1BC400DE8F903A10CF91D1842329 /* NSString+AdyenUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7808C3766B9407684EF2C7945101A6 /* NSString+AdyenUtil.m */; };
-		FEF0BCCF8A59DC1ED93C6C86B9734F5C /* ADYEncrypter.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF776B105EBB4BAD9247315A0BFE575 /* ADYEncrypter.m */; };
-		FF7059914AC152FB236A58A1B409C1D5 /* ADYEncrypter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C304368E0404505616C42C3C2EE6C17 /* ADYEncrypter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0196388212C7D804785DBEF3A5B2DC9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C10A31CD5CFA3EFE266394471B152E /* Foundation.framework */; };
+		0D182D89815EC08CD018C687C33500A9 /* AdyenCSE-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2BC5211F0C0555177E6020F450AF345 /* AdyenCSE-dummy.m */; };
+		10E49148EBF49437FA8DF11A735D96D0 /* ADYAESCCMCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = C5C2E68A71D1B1B0878BF09EB2996567 /* ADYAESCCMCryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44C2D2D026984A30EDBFBE0E4EE3E542 /* ADYCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 059142AAD7210F7897EB679AEACAA46F /* ADYCryptor.m */; };
+		4B366D231CB830552CA9B3FBBD168DD6 /* ADYAESCCMCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B19082772BB81E56F9ABD81517696FE /* ADYAESCCMCryptor.m */; };
+		59DB438C12791978A5219A51C648C304 /* ADYRSACryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 647D920904AA8C03FD207AD9523B7878 /* ADYRSACryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		676B0E765DF2B3060895A834A16CCF9D /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 699118D7DDD5F335E4FB8B17DC0F12D2 /* Pods-Example-dummy.m */; };
+		69914A9626132F4E79E77A1A2E9DACEC /* NSDictionary+AdyenUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AB01121C25330CA221C26BEE0738AAF /* NSDictionary+AdyenUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74B86A9930957F51BE81685AD38D8915 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C085E02FF89804F50ADDA04F5A586E94 /* Security.framework */; };
+		84B574CA77D882EC2CA96EAE582DEE51 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 7398EF221F35B0048B4D4B9489EF71DB /* Info.plist */; };
+		85C2D7338DEEC878A9EA6400BD4BD65D /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9BDE82371C83FA9AE91B05F77ACAA36 /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89213D79CAC255343D4705C487A97B44 /* ADYRSACryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 43293BBB5E0A2757334B041F31109A42 /* ADYRSACryptor.m */; };
+		907BF7A97D3B80E9689231B27E6C4B9D /* ADYCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 5727D5578AB6280CA92849CBC4A460AE /* ADYCryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC105F38A778D4E6C9408376CA8C3F93 /* ADYCard.h in Headers */ = {isa = PBXBuildFile; fileRef = 39DBBB6891C8976E00EE0712BFF4B257 /* ADYCard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0674D8B2EFC9A77F0B0DD13EE2AA1F2 /* ADYEncrypter.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C5404A70656EE923690CD755EAEE9D /* ADYEncrypter.m */; };
+		CB9F2C4F41CE57110E4C3841990B2721 /* NSDictionary+AdyenUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E3F32762DA5394A368DF2382CDB7551 /* NSDictionary+AdyenUtil.m */; };
+		DBA0F2909214856705DAB848FF9097C4 /* NSString+AdyenUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C7137E1BFC8E8B5B27B3FFA670D2EC1 /* NSString+AdyenUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF6628583DF4333C18109039F8909246 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C10A31CD5CFA3EFE266394471B152E /* Foundation.framework */; };
+		EAEE74B78D10B0E28A35FAF588BEF3E5 /* AdyenCSE-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A25F681E00D205503ADDB08CD63F2F1 /* AdyenCSE-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F08D71F8A357E68B1941B626BF774CDF /* NSString+AdyenUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8B4CDBC2BC0D675B521FEA37AA0FCF /* NSString+AdyenUtil.m */; };
+		F2626B7E4B63B476D9D50DC153D875E9 /* NSString+AdyenURLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C90511DEF0A6BBBBC4A31EE5C595E9D /* NSString+AdyenURLEncoding.m */; };
+		F5EE91C814207EBBDD9A37750BA3AB88 /* NSString+AdyenURLEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = FCA4C598FEF1309EBDC623EBB90FE67D /* NSString+AdyenURLEncoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9E52DC58134B1041847C706E2408C3D /* AdyenCSE.h in Headers */ = {isa = PBXBuildFile; fileRef = E963B79AE195E11A2780DBEBC93BD59E /* AdyenCSE.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB586CF986782EB4D33673BE09D38639 /* ADYCard.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9583F32E9B2FDE4B5B132F6E35934E /* ADYCard.m */; };
+		FF6E71E1A1AEAB2D2FFC4853CAE8D969 /* ADYEncrypter.h in Headers */ = {isa = PBXBuildFile; fileRef = EFCF7533770321D18E015E4D4692DF0A /* ADYEncrypter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9133D41E95FD8813EAC3C0B07316F469 /* PBXContainerItemProxy */ = {
+		627095CC620A220B2C932F493D7E3719 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5D379F6B58E1887DE13ACEB6B4AC5837;
+			remoteGlobalIDString = 7CA28AF95C1B4ADD66BFA440697B25B3;
 			remoteInfo = AdyenCSE;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01B25A82F8BF43268A30E530A4F58924 /* Pods-AdyenCSE_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AdyenCSE_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		04DD49AA9494F39DEE2DAB48AC782B02 /* ADYRSACryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ADYRSACryptor.h; sourceTree = "<group>"; };
-		0F6482C92FAED506E118B62248BAB0BE /* ADYAESCCMCryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ADYAESCCMCryptor.h; sourceTree = "<group>"; };
-		1534B265F16A6C3ECA59C4AF2A08ADFA /* Pods-AdyenCSE_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AdyenCSE_Example.modulemap"; sourceTree = "<group>"; };
-		18AEDA0923AD9A467C3F1B5266A5589F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1CC40A9D1F72D68151EF4C200BE50DE3 /* ADYCryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ADYCryptor.h; sourceTree = "<group>"; };
-		1FEDDCD242D60A80BD2B2CC980E05344 /* Pods-AdyenCSE_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdyenCSE_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		22BF5D132D094B3AEF9A0747C5328F98 /* Pods-AdyenCSE_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdyenCSE_Example-frameworks.sh"; sourceTree = "<group>"; };
-		29E5A83989B557BD0B3E1EBD9E6FD4C5 /* Pods-AdyenCSE_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdyenCSE_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3041623A73A594FD688FB152449BC496 /* Pods-AdyenCSE_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdyenCSE_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		316141628700C1B364A7F71A4143D059 /* AdyenCSE-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AdyenCSE-prefix.pch"; sourceTree = "<group>"; };
-		35EB645053A39B4E088C0BDA3A6C9F5D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		373BAFF68EC54889F2CDB8856A3A2773 /* Pods_AdyenCSE_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdyenCSE_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		37664A934C4563A4A79F219B91AEC6C3 /* Pods-AdyenCSE_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdyenCSE_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3CF653600A8778F7639CE4C5F6D69FBA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3EA02DA02714239E5D1E52224C48E226 /* Pods-AdyenCSE_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdyenCSE_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		430297842BD266E52C102BA572FEC2DD /* AdyenCSE.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AdyenCSE.xcconfig; sourceTree = "<group>"; };
-		44F9DA4C9C56958A293ACE67D667D49E /* Pods-AdyenCSE_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AdyenCSE_Tests.modulemap"; sourceTree = "<group>"; };
-		4D5BD5697F54A5D53B2DE833C6524214 /* NSString+AdyenURLEncoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+AdyenURLEncoding.m"; sourceTree = "<group>"; };
-		589ADEDA3E2A347310DF6558AEA58FB2 /* Pods-AdyenCSE_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AdyenCSE_Tests-umbrella.h"; sourceTree = "<group>"; };
-		5C43D9808DF13C8BA82F26D3EB7DAC1D /* ADYCard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ADYCard.h; sourceTree = "<group>"; };
-		67C4BA3154540937C8FC215DFBE6EF4B /* Pods-AdyenCSE_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AdyenCSE_Example-umbrella.h"; sourceTree = "<group>"; };
-		696F2CD16161B4AF713A9C7B34AABD58 /* AdyenCSE-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AdyenCSE-dummy.m"; sourceTree = "<group>"; };
-		6BE4DC71A2C79170B350F6412B2FFC4D /* Pods-AdyenCSE_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AdyenCSE_Tests-dummy.m"; sourceTree = "<group>"; };
-		6C304368E0404505616C42C3C2EE6C17 /* ADYEncrypter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ADYEncrypter.h; sourceTree = "<group>"; };
-		6E55FC79936BB0ED0C1AA988E3F870D8 /* Pods-AdyenCSE_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdyenCSE_Example-resources.sh"; sourceTree = "<group>"; };
-		6E7D93835E4ADC4B8163ED3279C104A5 /* ADYCard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ADYCard.m; sourceTree = "<group>"; };
-		7435EF0C8FB20549029703B9DF999B62 /* Pods-AdyenCSE_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AdyenCSE_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		74636E30B8D9618DA9E9021BA2929E32 /* NSString+AdyenUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+AdyenUtil.h"; sourceTree = "<group>"; };
-		7C8655F73DFC795727EACDF629C8C199 /* ADYAESCCMCryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ADYAESCCMCryptor.m; sourceTree = "<group>"; };
-		821EA4BCEDED7D09A10A5B0979F538FC /* AdyenCSE-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AdyenCSE-umbrella.h"; sourceTree = "<group>"; };
-		89C690BFF40E8B06DCD7FA15A69B91EA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9A7808C3766B9407684EF2C7945101A6 /* NSString+AdyenUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+AdyenUtil.m"; sourceTree = "<group>"; };
-		9A8782250CC38F72A88AC4812DA0BC10 /* NSDictionary+AdyenUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+AdyenUtil.m"; sourceTree = "<group>"; };
-		9F77DA181756DA06CD45CC42375AEF9F /* ADYCryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ADYCryptor.m; sourceTree = "<group>"; };
-		A0229BA663AB326800E03E12ECF18811 /* NSString+AdyenURLEncoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+AdyenURLEncoding.h"; sourceTree = "<group>"; };
-		B9CE9AEFDB98800BA9D35041C3E64EAB /* Pods_AdyenCSE_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdyenCSE_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC87AC273F5D670A272DDD813A7C3C57 /* Pods-AdyenCSE_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AdyenCSE_Example-dummy.m"; sourceTree = "<group>"; };
-		BD297B08BD02F3AFEB74046205418AB7 /* Pods-AdyenCSE_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AdyenCSE_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C281F17209459B856BB43958969FCED3 /* Pods-AdyenCSE_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AdyenCSE_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		CEF776B105EBB4BAD9247315A0BFE575 /* ADYEncrypter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ADYEncrypter.m; sourceTree = "<group>"; };
-		D630647054E085770841DF1C81628F34 /* AdyenCSE.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AdyenCSE.h; sourceTree = "<group>"; };
-		D692051EF32C02A74F6A5706D54B828B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D6D63A56E619059485F2EA99B39A000A /* Pods-AdyenCSE_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdyenCSE_Tests-resources.sh"; sourceTree = "<group>"; };
-		E3A644AD000797FE172BDA3B6ED55530 /* AdyenCSE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AdyenCSE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E932CAFA95F792B9BD06BCBBCCA69EE1 /* ADYRSACryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ADYRSACryptor.m; sourceTree = "<group>"; };
-		EC8597D63180424BB33C1A31DAE815E3 /* NSDictionary+AdyenUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+AdyenUtil.h"; sourceTree = "<group>"; };
-		F7555FC6447AD4775E53E9074E07C58B /* AdyenCSE.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AdyenCSE.modulemap; sourceTree = "<group>"; };
+		01E6907CF2644EB1CF8E23F708A3DA0B /* Pods-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-resources.sh"; sourceTree = "<group>"; };
+		059142AAD7210F7897EB679AEACAA46F /* ADYCryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ADYCryptor.m; sourceTree = "<group>"; };
+		06C5404A70656EE923690CD755EAEE9D /* ADYEncrypter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ADYEncrypter.m; sourceTree = "<group>"; };
+		119072C64A19799964E1620D83F514FB /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
+		11C10A31CD5CFA3EFE266394471B152E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		149054C495E8EC590CAB4C524133016F /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1B19082772BB81E56F9ABD81517696FE /* ADYAESCCMCryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ADYAESCCMCryptor.m; sourceTree = "<group>"; };
+		24261D22E88FFBF134EB9B2AC0F1BDE0 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Example.framework; path = "Pods-Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C90511DEF0A6BBBBC4A31EE5C595E9D /* NSString+AdyenURLEncoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+AdyenURLEncoding.m"; sourceTree = "<group>"; };
+		365D3F271EFE1E28053D9EDFB8B6B12D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37993072401D84FDA5A974D58E5FA6FB /* AdyenCSE.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AdyenCSE.xcconfig; sourceTree = "<group>"; };
+		39DBBB6891C8976E00EE0712BFF4B257 /* ADYCard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ADYCard.h; sourceTree = "<group>"; };
+		3C7137E1BFC8E8B5B27B3FFA670D2EC1 /* NSString+AdyenUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+AdyenUtil.h"; sourceTree = "<group>"; };
+		43293BBB5E0A2757334B041F31109A42 /* ADYRSACryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ADYRSACryptor.m; sourceTree = "<group>"; };
+		4F2027B87AAB4B9C03F43436D1CF1F39 /* AdyenCSE.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AdyenCSE.modulemap; sourceTree = "<group>"; };
+		552550F3F912264E5D073F8893691F88 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
+		5727D5578AB6280CA92849CBC4A460AE /* ADYCryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ADYCryptor.h; sourceTree = "<group>"; };
+		5AB01121C25330CA221C26BEE0738AAF /* NSDictionary+AdyenUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+AdyenUtil.h"; sourceTree = "<group>"; };
+		647D920904AA8C03FD207AD9523B7878 /* ADYRSACryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ADYRSACryptor.h; sourceTree = "<group>"; };
+		699118D7DDD5F335E4FB8B17DC0F12D2 /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
+		6A25F681E00D205503ADDB08CD63F2F1 /* AdyenCSE-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AdyenCSE-umbrella.h"; sourceTree = "<group>"; };
+		7398EF221F35B0048B4D4B9489EF71DB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		764D33E23CE6C1111110B04F5CBADADB /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E3F32762DA5394A368DF2382CDB7551 /* NSDictionary+AdyenUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+AdyenUtil.m"; sourceTree = "<group>"; };
+		A2BC5211F0C0555177E6020F450AF345 /* AdyenCSE-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AdyenCSE-dummy.m"; sourceTree = "<group>"; };
+		A661FECCEBFF9D01869EE3B29C4C1EFF /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C085E02FF89804F50ADDA04F5A586E94 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		C5C2E68A71D1B1B0878BF09EB2996567 /* ADYAESCCMCryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ADYAESCCMCryptor.h; sourceTree = "<group>"; };
+		C9BDE82371C83FA9AE91B05F77ACAA36 /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
+		CE9583F32E9B2FDE4B5B132F6E35934E /* ADYCard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ADYCard.m; sourceTree = "<group>"; };
+		DB8B4CDBC2BC0D675B521FEA37AA0FCF /* NSString+AdyenUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+AdyenUtil.m"; sourceTree = "<group>"; };
+		E190244BEA8128E93EEF02A9E53976DE /* AdyenCSE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AdyenCSE.framework; path = AdyenCSE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1C46BF341A894FA65558A2B25B47B87 /* AdyenCSE-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AdyenCSE-prefix.pch"; sourceTree = "<group>"; };
+		E512A5F985F876750237FD237C3AEEDA /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		E963B79AE195E11A2780DBEBC93BD59E /* AdyenCSE.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AdyenCSE.h; sourceTree = "<group>"; };
+		EFCF7533770321D18E015E4D4692DF0A /* ADYEncrypter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ADYEncrypter.h; sourceTree = "<group>"; };
+		EFFB74AAA6B2AE8DABF0E88E61E09178 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCA4C598FEF1309EBDC623EBB90FE67D /* NSString+AdyenURLEncoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+AdyenURLEncoding.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		933704FEA1AF41CB6487380CD045AE50 /* Frameworks */ = {
+		3B87B92232C6470C1633BB459676CF74 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BBB90714FD4DDA459D4019706C7AAB8 /* Foundation.framework in Frameworks */,
+				DF6628583DF4333C18109039F8909246 /* Foundation.framework in Frameworks */,
+				74B86A9930957F51BE81685AD38D8915 /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC0F843FF48A3BFA84B41A80ABA94998 /* Frameworks */ = {
+		8FC17956F45B74D5110818A1B39D3F6D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E211ECAEF5C5DF25D38DC95896E63E0 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CF9AE981351D1DC9C28A9B0154FB3335 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F5239652F2B10B599FF927B1E3D5A4C0 /* Foundation.framework in Frameworks */,
-				04956E6AE3E208BB5FC4927C28E372BB /* Security.framework in Frameworks */,
+				0196388212C7D804785DBEF3A5B2DC9B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		045EB0383CFB0359EEB54147A2DA08CC /* Pods-AdyenCSE_Tests */ = {
+		00687BD2B992155C02288DBC669F426A /* AdyenCSE */ = {
 			isa = PBXGroup;
 			children = (
-				3CF653600A8778F7639CE4C5F6D69FBA /* Info.plist */,
-				44F9DA4C9C56958A293ACE67D667D49E /* Pods-AdyenCSE_Tests.modulemap */,
-				01B25A82F8BF43268A30E530A4F58924 /* Pods-AdyenCSE_Tests-acknowledgements.markdown */,
-				7435EF0C8FB20549029703B9DF999B62 /* Pods-AdyenCSE_Tests-acknowledgements.plist */,
-				6BE4DC71A2C79170B350F6412B2FFC4D /* Pods-AdyenCSE_Tests-dummy.m */,
-				3041623A73A594FD688FB152449BC496 /* Pods-AdyenCSE_Tests-frameworks.sh */,
-				D6D63A56E619059485F2EA99B39A000A /* Pods-AdyenCSE_Tests-resources.sh */,
-				589ADEDA3E2A347310DF6558AEA58FB2 /* Pods-AdyenCSE_Tests-umbrella.h */,
-				1FEDDCD242D60A80BD2B2CC980E05344 /* Pods-AdyenCSE_Tests.debug.xcconfig */,
-				3EA02DA02714239E5D1E52224C48E226 /* Pods-AdyenCSE_Tests.release.xcconfig */,
+				C5C2E68A71D1B1B0878BF09EB2996567 /* ADYAESCCMCryptor.h */,
+				1B19082772BB81E56F9ABD81517696FE /* ADYAESCCMCryptor.m */,
+				39DBBB6891C8976E00EE0712BFF4B257 /* ADYCard.h */,
+				CE9583F32E9B2FDE4B5B132F6E35934E /* ADYCard.m */,
+				5727D5578AB6280CA92849CBC4A460AE /* ADYCryptor.h */,
+				059142AAD7210F7897EB679AEACAA46F /* ADYCryptor.m */,
+				EFCF7533770321D18E015E4D4692DF0A /* ADYEncrypter.h */,
+				06C5404A70656EE923690CD755EAEE9D /* ADYEncrypter.m */,
+				E963B79AE195E11A2780DBEBC93BD59E /* AdyenCSE.h */,
+				647D920904AA8C03FD207AD9523B7878 /* ADYRSACryptor.h */,
+				43293BBB5E0A2757334B041F31109A42 /* ADYRSACryptor.m */,
+				7398EF221F35B0048B4D4B9489EF71DB /* Info.plist */,
+				5AB01121C25330CA221C26BEE0738AAF /* NSDictionary+AdyenUtil.h */,
+				9E3F32762DA5394A368DF2382CDB7551 /* NSDictionary+AdyenUtil.m */,
+				FCA4C598FEF1309EBDC623EBB90FE67D /* NSString+AdyenURLEncoding.h */,
+				2C90511DEF0A6BBBBC4A31EE5C595E9D /* NSString+AdyenURLEncoding.m */,
+				3C7137E1BFC8E8B5B27B3FFA670D2EC1 /* NSString+AdyenUtil.h */,
+				DB8B4CDBC2BC0D675B521FEA37AA0FCF /* NSString+AdyenUtil.m */,
 			);
-			name = "Pods-AdyenCSE_Tests";
-			path = "Target Support Files/Pods-AdyenCSE_Tests";
-			sourceTree = "<group>";
-		};
-		37A07927792BD37E76D63F3F110808A3 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E3A644AD000797FE172BDA3B6ED55530 /* AdyenCSE.framework */,
-				B9CE9AEFDB98800BA9D35041C3E64EAB /* Pods_AdyenCSE_Example.framework */,
-				373BAFF68EC54889F2CDB8856A3A2773 /* Pods_AdyenCSE_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		3EF229062F5357F1028165A423A4C68A /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				D692051EF32C02A74F6A5706D54B828B /* Foundation.framework */,
-				35EB645053A39B4E088C0BDA3A6C9F5D /* Security.framework */,
-			);
-			name = iOS;
+			name = AdyenCSE;
+			path = AdyenCSE;
 			sourceTree = "<group>";
 		};
 		41077FE05C4C9EB02BB451227BE65A16 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				770544364275399939C4E5ACB7D084CE /* AdyenCSE */,
+				64ABF29FB4E81EC2D07E8071801E9577 /* AdyenCSE */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -175,60 +144,45 @@
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3EF229062F5357F1028165A423A4C68A /* iOS */,
+				4F990579C2E52276FD3C28227B49D60B /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4A002C9A5EBA980553F6520F6015EC5B /* Targets Support Files */ = {
+		4F990579C2E52276FD3C28227B49D60B /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				F79DEF043037457FCD050BEF883ACE39 /* Pods-AdyenCSE_Example */,
-				045EB0383CFB0359EEB54147A2DA08CC /* Pods-AdyenCSE_Tests */,
+				11C10A31CD5CFA3EFE266394471B152E /* Foundation.framework */,
+				C085E02FF89804F50ADDA04F5A586E94 /* Security.framework */,
 			);
-			name = "Targets Support Files";
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		4DB7F4EB823787E61421989B35BB4058 /* AdyenCSE */ = {
+		64ABF29FB4E81EC2D07E8071801E9577 /* AdyenCSE */ = {
 			isa = PBXGroup;
 			children = (
-				6FD6A19C0221E1DC0A5C7F41C606FAEB /* Classes */,
-			);
-			path = AdyenCSE;
-			sourceTree = "<group>";
-		};
-		6FD6A19C0221E1DC0A5C7F41C606FAEB /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				0F6482C92FAED506E118B62248BAB0BE /* ADYAESCCMCryptor.h */,
-				7C8655F73DFC795727EACDF629C8C199 /* ADYAESCCMCryptor.m */,
-				5C43D9808DF13C8BA82F26D3EB7DAC1D /* ADYCard.h */,
-				6E7D93835E4ADC4B8163ED3279C104A5 /* ADYCard.m */,
-				1CC40A9D1F72D68151EF4C200BE50DE3 /* ADYCryptor.h */,
-				9F77DA181756DA06CD45CC42375AEF9F /* ADYCryptor.m */,
-				6C304368E0404505616C42C3C2EE6C17 /* ADYEncrypter.h */,
-				CEF776B105EBB4BAD9247315A0BFE575 /* ADYEncrypter.m */,
-				D630647054E085770841DF1C81628F34 /* AdyenCSE.h */,
-				04DD49AA9494F39DEE2DAB48AC782B02 /* ADYRSACryptor.h */,
-				E932CAFA95F792B9BD06BCBBCCA69EE1 /* ADYRSACryptor.m */,
-				EC8597D63180424BB33C1A31DAE815E3 /* NSDictionary+AdyenUtil.h */,
-				9A8782250CC38F72A88AC4812DA0BC10 /* NSDictionary+AdyenUtil.m */,
-				A0229BA663AB326800E03E12ECF18811 /* NSString+AdyenURLEncoding.h */,
-				4D5BD5697F54A5D53B2DE833C6524214 /* NSString+AdyenURLEncoding.m */,
-				74636E30B8D9618DA9E9021BA2929E32 /* NSString+AdyenUtil.h */,
-				9A7808C3766B9407684EF2C7945101A6 /* NSString+AdyenUtil.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		770544364275399939C4E5ACB7D084CE /* AdyenCSE */ = {
-			isa = PBXGroup;
-			children = (
-				4DB7F4EB823787E61421989B35BB4058 /* AdyenCSE */,
-				A0553A976697526DE7A2ADB79FCFE667 /* Support Files */,
+				00687BD2B992155C02288DBC669F426A /* AdyenCSE */,
+				F6D27DB590BCDA16D5B47675E3445C0E /* Support Files */,
 			);
 			name = AdyenCSE;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		677CD0CCA83B304BE0030392A0BA01F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E190244BEA8128E93EEF02A9E53976DE /* AdyenCSE.framework */,
+				24261D22E88FFBF134EB9B2AC0F1BDE0 /* Pods_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A4F6A14E3FB951290E4531728B7A461 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE9811ABEB5931E154211FCA14B78350 /* Pods-Example */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -237,107 +191,99 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				41077FE05C4C9EB02BB451227BE65A16 /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				37A07927792BD37E76D63F3F110808A3 /* Products */,
-				4A002C9A5EBA980553F6520F6015EC5B /* Targets Support Files */,
+				677CD0CCA83B304BE0030392A0BA01F6 /* Products */,
+				6A4F6A14E3FB951290E4531728B7A461 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		A0553A976697526DE7A2ADB79FCFE667 /* Support Files */ = {
+		F6D27DB590BCDA16D5B47675E3445C0E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F7555FC6447AD4775E53E9074E07C58B /* AdyenCSE.modulemap */,
-				430297842BD266E52C102BA572FEC2DD /* AdyenCSE.xcconfig */,
-				696F2CD16161B4AF713A9C7B34AABD58 /* AdyenCSE-dummy.m */,
-				316141628700C1B364A7F71A4143D059 /* AdyenCSE-prefix.pch */,
-				821EA4BCEDED7D09A10A5B0979F538FC /* AdyenCSE-umbrella.h */,
-				18AEDA0923AD9A467C3F1B5266A5589F /* Info.plist */,
+				4F2027B87AAB4B9C03F43436D1CF1F39 /* AdyenCSE.modulemap */,
+				37993072401D84FDA5A974D58E5FA6FB /* AdyenCSE.xcconfig */,
+				A2BC5211F0C0555177E6020F450AF345 /* AdyenCSE-dummy.m */,
+				E1C46BF341A894FA65558A2B25B47B87 /* AdyenCSE-prefix.pch */,
+				6A25F681E00D205503ADDB08CD63F2F1 /* AdyenCSE-umbrella.h */,
+				365D3F271EFE1E28053D9EDFB8B6B12D /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/AdyenCSE";
 			sourceTree = "<group>";
 		};
-		F79DEF043037457FCD050BEF883ACE39 /* Pods-AdyenCSE_Example */ = {
+		FE9811ABEB5931E154211FCA14B78350 /* Pods-Example */ = {
 			isa = PBXGroup;
 			children = (
-				89C690BFF40E8B06DCD7FA15A69B91EA /* Info.plist */,
-				1534B265F16A6C3ECA59C4AF2A08ADFA /* Pods-AdyenCSE_Example.modulemap */,
-				BD297B08BD02F3AFEB74046205418AB7 /* Pods-AdyenCSE_Example-acknowledgements.markdown */,
-				C281F17209459B856BB43958969FCED3 /* Pods-AdyenCSE_Example-acknowledgements.plist */,
-				BC87AC273F5D670A272DDD813A7C3C57 /* Pods-AdyenCSE_Example-dummy.m */,
-				22BF5D132D094B3AEF9A0747C5328F98 /* Pods-AdyenCSE_Example-frameworks.sh */,
-				6E55FC79936BB0ED0C1AA988E3F870D8 /* Pods-AdyenCSE_Example-resources.sh */,
-				67C4BA3154540937C8FC215DFBE6EF4B /* Pods-AdyenCSE_Example-umbrella.h */,
-				29E5A83989B557BD0B3E1EBD9E6FD4C5 /* Pods-AdyenCSE_Example.debug.xcconfig */,
-				37664A934C4563A4A79F219B91AEC6C3 /* Pods-AdyenCSE_Example.release.xcconfig */,
+				EFFB74AAA6B2AE8DABF0E88E61E09178 /* Info.plist */,
+				119072C64A19799964E1620D83F514FB /* Pods-Example.modulemap */,
+				A661FECCEBFF9D01869EE3B29C4C1EFF /* Pods-Example-acknowledgements.markdown */,
+				764D33E23CE6C1111110B04F5CBADADB /* Pods-Example-acknowledgements.plist */,
+				699118D7DDD5F335E4FB8B17DC0F12D2 /* Pods-Example-dummy.m */,
+				552550F3F912264E5D073F8893691F88 /* Pods-Example-frameworks.sh */,
+				01E6907CF2644EB1CF8E23F708A3DA0B /* Pods-Example-resources.sh */,
+				C9BDE82371C83FA9AE91B05F77ACAA36 /* Pods-Example-umbrella.h */,
+				149054C495E8EC590CAB4C524133016F /* Pods-Example.debug.xcconfig */,
+				E512A5F985F876750237FD237C3AEEDA /* Pods-Example.release.xcconfig */,
 			);
-			name = "Pods-AdyenCSE_Example";
-			path = "Target Support Files/Pods-AdyenCSE_Example";
+			name = "Pods-Example";
+			path = "Target Support Files/Pods-Example";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2FA409520D886D3B9BD093B436D85C93 /* Headers */ = {
+		044EA3F5C06B2C09109437D784539C8A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C749570774B9936297BA29C26EA02C6A /* Pods-AdyenCSE_Example-umbrella.h in Headers */,
+				85C2D7338DEEC878A9EA6400BD4BD65D /* Pods-Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3BC5BD49277E1C44EDF5A0FD1313E0E6 /* Headers */ = {
+		1F5942DAEA3C8B831DDDA43E78DB77C3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9095B9187E575261005DBE66EC920652 /* ADYAESCCMCryptor.h in Headers */,
-				5934C0A28B5385A8AF80AB9A00723A8D /* ADYCard.h in Headers */,
-				829C4B8096D445FBB8A1703C6D1FA1A3 /* ADYCryptor.h in Headers */,
-				FF7059914AC152FB236A58A1B409C1D5 /* ADYEncrypter.h in Headers */,
-				2BFE1A2D5D5F402406219633CCBAABE2 /* AdyenCSE-umbrella.h in Headers */,
-				D634B70371C055FB892E0660890C0E37 /* AdyenCSE.h in Headers */,
-				500A2DEB7FFF51C79312D948075B8399 /* ADYRSACryptor.h in Headers */,
-				6C7EFCADADB06806E9AD51186EDB1427 /* NSDictionary+AdyenUtil.h in Headers */,
-				D049E966A9B2211C20C8B386C4D48212 /* NSString+AdyenURLEncoding.h in Headers */,
-				0D157F21875B38A1715CD5C82CF8F00B /* NSString+AdyenUtil.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5931A0FBDADD4B5ECF44C4F17AB8F107 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				576B9B9F31015FE515BFABEB43398154 /* Pods-AdyenCSE_Tests-umbrella.h in Headers */,
+				10E49148EBF49437FA8DF11A735D96D0 /* ADYAESCCMCryptor.h in Headers */,
+				BC105F38A778D4E6C9408376CA8C3F93 /* ADYCard.h in Headers */,
+				907BF7A97D3B80E9689231B27E6C4B9D /* ADYCryptor.h in Headers */,
+				FF6E71E1A1AEAB2D2FFC4853CAE8D969 /* ADYEncrypter.h in Headers */,
+				EAEE74B78D10B0E28A35FAF588BEF3E5 /* AdyenCSE-umbrella.h in Headers */,
+				F9E52DC58134B1041847C706E2408C3D /* AdyenCSE.h in Headers */,
+				59DB438C12791978A5219A51C648C304 /* ADYRSACryptor.h in Headers */,
+				69914A9626132F4E79E77A1A2E9DACEC /* NSDictionary+AdyenUtil.h in Headers */,
+				F5EE91C814207EBBDD9A37750BA3AB88 /* NSString+AdyenURLEncoding.h in Headers */,
+				DBA0F2909214856705DAB848FF9097C4 /* NSString+AdyenUtil.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		37936BECC8B72E951A95888DEBDA733E /* Pods-AdyenCSE_Example */ = {
+		44DB19C2A5CBB84CB4A809803EB53C76 /* Pods-Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5CBB0E08B35A377C6EA85C2B8EFC97D0 /* Build configuration list for PBXNativeTarget "Pods-AdyenCSE_Example" */;
+			buildConfigurationList = 76D2479D377C6E411CBE3939DB51BC0B /* Build configuration list for PBXNativeTarget "Pods-Example" */;
 			buildPhases = (
-				6342BF8979CB6667E9F4F399C47F9BF1 /* Sources */,
-				933704FEA1AF41CB6487380CD045AE50 /* Frameworks */,
-				2FA409520D886D3B9BD093B436D85C93 /* Headers */,
+				A156CB39C5ACE8E735689AF80CB7F742 /* Sources */,
+				8FC17956F45B74D5110818A1B39D3F6D /* Frameworks */,
+				044EA3F5C06B2C09109437D784539C8A /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9AA33B960E445D174381AC6F43835DB0 /* PBXTargetDependency */,
+				4608A55B617432CB6FE0BD3335504EE0 /* PBXTargetDependency */,
 			);
-			name = "Pods-AdyenCSE_Example";
-			productName = "Pods-AdyenCSE_Example";
-			productReference = B9CE9AEFDB98800BA9D35041C3E64EAB /* Pods_AdyenCSE_Example.framework */;
+			name = "Pods-Example";
+			productName = "Pods-Example";
+			productReference = 24261D22E88FFBF134EB9B2AC0F1BDE0 /* Pods_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5D379F6B58E1887DE13ACEB6B4AC5837 /* AdyenCSE */ = {
+		7CA28AF95C1B4ADD66BFA440697B25B3 /* AdyenCSE */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 633418A91E050C4706368AB4B0E72C60 /* Build configuration list for PBXNativeTarget "AdyenCSE" */;
+			buildConfigurationList = 7FBB56E56E8B0FBF0D257DF550170537 /* Build configuration list for PBXNativeTarget "AdyenCSE" */;
 			buildPhases = (
-				531B9807DBF4FDFE52B0EB9E076C1C1D /* Sources */,
-				CF9AE981351D1DC9C28A9B0154FB3335 /* Frameworks */,
-				3BC5BD49277E1C44EDF5A0FD1313E0E6 /* Headers */,
+				8F0312657F2F4E046ED622FA0E1789A2 /* Sources */,
+				3B87B92232C6470C1633BB459676CF74 /* Frameworks */,
+				1F5942DAEA3C8B831DDDA43E78DB77C3 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -345,24 +291,7 @@
 			);
 			name = AdyenCSE;
 			productName = AdyenCSE;
-			productReference = E3A644AD000797FE172BDA3B6ED55530 /* AdyenCSE.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		60E0EA76C51432EE9B47193406C58FD1 /* Pods-AdyenCSE_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CEBE742D2BAB2D7988E66461DDFE83FF /* Build configuration list for PBXNativeTarget "Pods-AdyenCSE_Tests" */;
-			buildPhases = (
-				363F18759B0AD0264C80CC13CE3B8688 /* Sources */,
-				AC0F843FF48A3BFA84B41A80ABA94998 /* Frameworks */,
-				5931A0FBDADD4B5ECF44C4F17AB8F107 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-AdyenCSE_Tests";
-			productName = "Pods-AdyenCSE_Tests";
-			productReference = 373BAFF68EC54889F2CDB8856A3A2773 /* Pods_AdyenCSE_Tests.framework */;
+			productReference = E190244BEA8128E93EEF02A9E53976DE /* AdyenCSE.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -371,7 +300,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -382,67 +311,60 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 37A07927792BD37E76D63F3F110808A3 /* Products */;
+			productRefGroup = 677CD0CCA83B304BE0030392A0BA01F6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5D379F6B58E1887DE13ACEB6B4AC5837 /* AdyenCSE */,
-				37936BECC8B72E951A95888DEBDA733E /* Pods-AdyenCSE_Example */,
-				60E0EA76C51432EE9B47193406C58FD1 /* Pods-AdyenCSE_Tests */,
+				7CA28AF95C1B4ADD66BFA440697B25B3 /* AdyenCSE */,
+				44DB19C2A5CBB84CB4A809803EB53C76 /* Pods-Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		363F18759B0AD0264C80CC13CE3B8688 /* Sources */ = {
+		8F0312657F2F4E046ED622FA0E1789A2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				427C51F5A5C0B9BDDAE10BE7AFAFE7A2 /* Pods-AdyenCSE_Tests-dummy.m in Sources */,
+				4B366D231CB830552CA9B3FBBD168DD6 /* ADYAESCCMCryptor.m in Sources */,
+				FB586CF986782EB4D33673BE09D38639 /* ADYCard.m in Sources */,
+				44C2D2D026984A30EDBFBE0E4EE3E542 /* ADYCryptor.m in Sources */,
+				C0674D8B2EFC9A77F0B0DD13EE2AA1F2 /* ADYEncrypter.m in Sources */,
+				0D182D89815EC08CD018C687C33500A9 /* AdyenCSE-dummy.m in Sources */,
+				89213D79CAC255343D4705C487A97B44 /* ADYRSACryptor.m in Sources */,
+				84B574CA77D882EC2CA96EAE582DEE51 /* Info.plist in Sources */,
+				CB9F2C4F41CE57110E4C3841990B2721 /* NSDictionary+AdyenUtil.m in Sources */,
+				F2626B7E4B63B476D9D50DC153D875E9 /* NSString+AdyenURLEncoding.m in Sources */,
+				F08D71F8A357E68B1941B626BF774CDF /* NSString+AdyenUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		531B9807DBF4FDFE52B0EB9E076C1C1D /* Sources */ = {
+		A156CB39C5ACE8E735689AF80CB7F742 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BE10966B2B6399AB47D558ECB7FE9FC /* ADYAESCCMCryptor.m in Sources */,
-				0C2686733ECC079DFE10FA127029B954 /* ADYCard.m in Sources */,
-				B029C9E081AF92B2CC0D776E5093B7AE /* ADYCryptor.m in Sources */,
-				FEF0BCCF8A59DC1ED93C6C86B9734F5C /* ADYEncrypter.m in Sources */,
-				C15FE3C2045B2C8C44104D405039D1D7 /* AdyenCSE-dummy.m in Sources */,
-				B0910AABE3A83588DF09827569668FCB /* ADYRSACryptor.m in Sources */,
-				7E0BE3EBEA0C456F69F45A405E80246C /* NSDictionary+AdyenUtil.m in Sources */,
-				79B9AA976DBE5309E5AC16592B8111E2 /* NSString+AdyenURLEncoding.m in Sources */,
-				F9DC1BC400DE8F903A10CF91D1842329 /* NSString+AdyenUtil.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6342BF8979CB6667E9F4F399C47F9BF1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2BD9A41B0B67380A3D5504F9A006B74E /* Pods-AdyenCSE_Example-dummy.m in Sources */,
+				676B0E765DF2B3060895A834A16CCF9D /* Pods-Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9AA33B960E445D174381AC6F43835DB0 /* PBXTargetDependency */ = {
+		4608A55B617432CB6FE0BD3335504EE0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AdyenCSE;
-			target = 5D379F6B58E1887DE13ACEB6B4AC5837 /* AdyenCSE */;
-			targetProxy = 9133D41E95FD8813EAC3C0B07316F469 /* PBXContainerItemProxy */;
+			target = 7CA28AF95C1B4ADD66BFA440697B25B3 /* AdyenCSE */;
+			targetProxy = 627095CC620A220B2C932F493D7E3719 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+		163D87BE96A63549B0EACF1CC31A2E90 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -450,37 +372,85 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
 					"$(inherited)",
 				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
-		56C13AAB16BCD652C43FE1D119C6CE14 /* Debug */ = {
+		1CE4409B22413EFBED3380C849D4692B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 430297842BD266E52C102BA572FEC2DD /* AdyenCSE.xcconfig */;
+			baseConfigurationReference = 149054C495E8EC590CAB4C524133016F /* Pods-Example.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Example/Pods-Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5871A4A61E1B35491C5A32BA85A32C1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37993072401D84FDA5A974D58E5FA6FB /* AdyenCSE.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -505,110 +475,12 @@
 			};
 			name = Debug;
 		};
-		75637D8A676970941A0008A558678B94 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37664A934C4563A4A79F219B91AEC6C3 /* Pods-AdyenCSE_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-AdyenCSE_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AdyenCSE_Example/Pods-AdyenCSE_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_AdyenCSE_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9DE45C202010D6DFFF2056C61053670E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FEDDCD242D60A80BD2B2CC980E05344 /* Pods-AdyenCSE_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-AdyenCSE_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AdyenCSE_Tests/Pods-AdyenCSE_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_AdyenCSE_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C8354DB8794E528FDEF6F4B642FBF807 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29E5A83989B557BD0B3E1EBD9E6FD4C5 /* Pods-AdyenCSE_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-AdyenCSE_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AdyenCSE_Example/Pods-AdyenCSE_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_AdyenCSE_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -616,41 +488,45 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				ENABLE_TESTABILITY = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_DEBUG=1",
-					"DEBUG=1",
+					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				ONLY_ACTIVE_ARCH = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
-		D722DCC88B88E5C8DC54E0B775491297 /* Release */ = {
+		77EC72C8609A51F8F95146D6D4F57925 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3EA02DA02714239E5D1E52224C48E226 /* Pods-AdyenCSE_Tests.release.xcconfig */;
+			baseConfigurationReference = E512A5F985F876750237FD237C3AEEDA /* Pods-Example.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
@@ -659,18 +535,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-AdyenCSE_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AdyenCSE_Tests/Pods-AdyenCSE_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Example/Pods-Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_AdyenCSE_Tests;
+				PRODUCT_NAME = Pods_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -679,11 +555,14 @@
 			};
 			name = Release;
 		};
-		E2F292C42B567C221D454DA8F02AA413 /* Release */ = {
+		B6851FC33CEEE3C2FFF0FD993A37CB49 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 430297842BD266E52C102BA572FEC2DD /* AdyenCSE.xcconfig */;
+			baseConfigurationReference = 37993072401D84FDA5A974D58E5FA6FB /* AdyenCSE.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
@@ -714,35 +593,26 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
-				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+				163D87BE96A63549B0EACF1CC31A2E90 /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5CBB0E08B35A377C6EA85C2B8EFC97D0 /* Build configuration list for PBXNativeTarget "Pods-AdyenCSE_Example" */ = {
+		76D2479D377C6E411CBE3939DB51BC0B /* Build configuration list for PBXNativeTarget "Pods-Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C8354DB8794E528FDEF6F4B642FBF807 /* Debug */,
-				75637D8A676970941A0008A558678B94 /* Release */,
+				1CE4409B22413EFBED3380C849D4692B /* Debug */,
+				77EC72C8609A51F8F95146D6D4F57925 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		633418A91E050C4706368AB4B0E72C60 /* Build configuration list for PBXNativeTarget "AdyenCSE" */ = {
+		7FBB56E56E8B0FBF0D257DF550170537 /* Build configuration list for PBXNativeTarget "AdyenCSE" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				56C13AAB16BCD652C43FE1D119C6CE14 /* Debug */,
-				E2F292C42B567C221D454DA8F02AA413 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CEBE742D2BAB2D7988E66461DDFE83FF /* Build configuration list for PBXNativeTarget "Pods-AdyenCSE_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9DE45C202010D6DFFF2056C61053670E /* Debug */,
-				D722DCC88B88E5C8DC54E0B775491297 /* Release */,
+				5871A4A61E1B35491C5A32BA85A32C1E /* Debug */,
+				B6851FC33CEEE3C2FFF0FD993A37CB49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
