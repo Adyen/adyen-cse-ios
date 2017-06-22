@@ -8,21 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		E20AD1941EFBE0220065B70E /* AdyenCSE.h in Headers */ = {isa = PBXBuildFile; fileRef = E20AD1921EFBE0220065B70E /* AdyenCSE.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E20AD1AA1EFBE0830065B70E /* ADYAESCCMCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = E20AD19A1EFBE0830065B70E /* ADYAESCCMCryptor.h */; };
+		E20AD1AA1EFBE0830065B70E /* ADYAESCCMCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = E20AD19A1EFBE0830065B70E /* ADYAESCCMCryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E20AD1AB1EFBE0830065B70E /* ADYAESCCMCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = E20AD19B1EFBE0830065B70E /* ADYAESCCMCryptor.m */; };
-		E20AD1AC1EFBE0830065B70E /* ADYCard.h in Headers */ = {isa = PBXBuildFile; fileRef = E20AD19C1EFBE0830065B70E /* ADYCard.h */; };
+		E20AD1AC1EFBE0830065B70E /* ADYCard.h in Headers */ = {isa = PBXBuildFile; fileRef = E20AD19C1EFBE0830065B70E /* ADYCard.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E20AD1AD1EFBE0830065B70E /* ADYCard.m in Sources */ = {isa = PBXBuildFile; fileRef = E20AD19D1EFBE0830065B70E /* ADYCard.m */; };
-		E20AD1AE1EFBE0830065B70E /* ADYCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = E20AD19E1EFBE0830065B70E /* ADYCryptor.h */; };
+		E20AD1AE1EFBE0830065B70E /* ADYCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = E20AD19E1EFBE0830065B70E /* ADYCryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E20AD1AF1EFBE0830065B70E /* ADYCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = E20AD19F1EFBE0830065B70E /* ADYCryptor.m */; };
-		E20AD1B01EFBE0830065B70E /* ADYEncrypter.h in Headers */ = {isa = PBXBuildFile; fileRef = E20AD1A01EFBE0830065B70E /* ADYEncrypter.h */; };
+		E20AD1B01EFBE0830065B70E /* ADYEncrypter.h in Headers */ = {isa = PBXBuildFile; fileRef = E20AD1A01EFBE0830065B70E /* ADYEncrypter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E20AD1B11EFBE0830065B70E /* ADYEncrypter.m in Sources */ = {isa = PBXBuildFile; fileRef = E20AD1A11EFBE0830065B70E /* ADYEncrypter.m */; };
-		E20AD1B21EFBE0830065B70E /* ADYRSACryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = E20AD1A21EFBE0830065B70E /* ADYRSACryptor.h */; };
+		E20AD1B21EFBE0830065B70E /* ADYRSACryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = E20AD1A21EFBE0830065B70E /* ADYRSACryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E20AD1B31EFBE0830065B70E /* ADYRSACryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = E20AD1A31EFBE0830065B70E /* ADYRSACryptor.m */; };
-		E20AD1B41EFBE0830065B70E /* NSDictionary+AdyenUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = E20AD1A41EFBE0830065B70E /* NSDictionary+AdyenUtil.h */; };
+		E20AD1B41EFBE0830065B70E /* NSDictionary+AdyenUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = E20AD1A41EFBE0830065B70E /* NSDictionary+AdyenUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E20AD1B51EFBE0830065B70E /* NSDictionary+AdyenUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E20AD1A51EFBE0830065B70E /* NSDictionary+AdyenUtil.m */; };
-		E20AD1B61EFBE0830065B70E /* NSString+AdyenURLEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = E20AD1A61EFBE0830065B70E /* NSString+AdyenURLEncoding.h */; };
+		E20AD1B61EFBE0830065B70E /* NSString+AdyenURLEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = E20AD1A61EFBE0830065B70E /* NSString+AdyenURLEncoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E20AD1B71EFBE0830065B70E /* NSString+AdyenURLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = E20AD1A71EFBE0830065B70E /* NSString+AdyenURLEncoding.m */; };
-		E20AD1B81EFBE0830065B70E /* NSString+AdyenUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = E20AD1A81EFBE0830065B70E /* NSString+AdyenUtil.h */; };
+		E20AD1B81EFBE0830065B70E /* NSString+AdyenUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = E20AD1A81EFBE0830065B70E /* NSString+AdyenUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E20AD1B91EFBE0830065B70E /* NSString+AdyenUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E20AD1A91EFBE0830065B70E /* NSString+AdyenUtil.m */; };
 /* End PBXBuildFile section */
 
