@@ -1,8 +1,8 @@
 # Adyen CSE for iOS
 [![Build Status](https://travis-ci.org/Adyen/adyen-cse-ios.svg?branch=master)](https://travis-ci.org/Adyen/AdyenCSE-iOS)
-[![CocoaPods](https://img.shields.io/cocoapods/v/AdyenCSE.svg?style=flat)](http://cocoapods.org/?q=name%3AAdyenCSE)
 [![License](https://img.shields.io/cocoapods/l/AdyenCSE.svg?style=flat)](http://cocoapods.org/pods/AdyenDL)
 [![CocoaPods](https://img.shields.io/cocoapods/p/AdyenCSE.svg?style=flat)](https://github.com/Adyen/AdyenCSE-iOS)
+[![CocoaPods](https://img.shields.io/cocoapods/v/AdyenCSE.svg?style=flat)](http://cocoapods.org/?q=name%3AAdyenCSE)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 This repository contains Adyen's Client-Side Encryption (CSE) library for iOS. With CSE card data is encrypted on a client side (in this case the iOS device) before you submit it through your own server to the Adyen API. By using CSE you reduce your scope of [PCI compliance](https://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard), because no raw card data travels through your server. This repository can be leveraged as a starting point to integrate Adyen's payment functionality fully in-app.
