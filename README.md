@@ -33,7 +33,7 @@ AdyenCSE is available through either [CocoaPods](http://cocoapods.org) or [Carth
 
 ### Carthage
 
-1. Add `github 'adyen/adyen-cse-ios'` to your `Cartfile`.
+1. Add `github "adyen/adyen-cse-ios"` to your `Cartfile`.
 2. Run `carthage update`.
 3. Link the framework with your target as described in [Carthage Readme](https://github.com/Carthage/Carthage#adding-frameworks-to-an-application).
 
