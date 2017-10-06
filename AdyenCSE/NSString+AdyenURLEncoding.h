@@ -10,6 +10,6 @@
 
 @interface NSString (AdyenURLEncoding)
 
-- (NSString *)urlEncodeUsingEncoding:(NSStringEncoding)encoding;
+- (NSString *)urlEncodeUsingEncoding:(NSStringEncoding)encoding DEPRECATED_MSG_ATTRIBUTE("Use -ady_URLEncodedString instead.");
 
 @end

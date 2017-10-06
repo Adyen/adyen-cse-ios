@@ -68,7 +68,7 @@ NSURL *url = [NSURL URLWithString:merchantPaymentAuthoriseUrl];
 NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
 request.HTTPMethod = @"POST";
 
-NSString *body = [NSString stringWithFormat:@"encryptedCard=%@",[encryptedCardDetails urlEncodeUsingEncoding:NSUTF8StringEncoding]];
+NSString *body = [NSString stringWithFormat:@"encryptedCard=%@",[encryptedCardDetails ady_URLEncodedString]];
 request.HTTPBody = [body dataUsingEncoding:NSUTF8StringEncoding];
 ```
 

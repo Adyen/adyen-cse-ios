@@ -10,6 +10,10 @@
 
 @interface NSString (AdyenUtil)
 
-- (BOOL)isHexString;
-- (NSString*)URLEncodedString;
+- (BOOL)isHexString DEPRECATED_MSG_ATTRIBUTE("Use -ady_isHexString instead.");
+- (BOOL)ady_isHexString;
+
+- (NSString *)URLEncodedString DEPRECATED_MSG_ATTRIBUTE("Use -ady_URLEncodedString instead.");
+- (NSString *)ady_URLEncodedString;
+
 @end

@@ -97,7 +97,7 @@ static NSString * merchantPaymentAuthoriseUrl = @"";
 
     // URL-encode encrypted card details parameter.
     NSString *body = [NSString stringWithFormat:@"encryptedCard=%@",
-                      [encryptedCardDetails urlEncodeUsingEncoding:NSUTF8StringEncoding]];
+                      [encryptedCardDetails ady_URLEncodedString]];
     request.HTTPBody = [body dataUsingEncoding:NSUTF8StringEncoding];
     
     NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration defaultSessionConfiguration];

@@ -10,6 +10,7 @@
 
 @interface NSDictionary (AdyenUtil)
 
-- (NSString*)encodeFormData;
+- (NSString *)encodeFormData DEPRECATED_MSG_ATTRIBUTE("Use -ady_encodeFormData instead.");
+- (NSString *)ady_encodeFormData;
 
 @end

@@ -11,13 +11,17 @@
 
 @implementation NSDictionary (AdyenUtil)
 
-- (NSString*)encodeFormData {
+- (NSString *)encodeFormData {
+    return [self ady_encodeFormData];
+}
+
+- (NSString *)ady_encodeFormData {
     NSMutableString* s = [NSMutableString string];
     [self enumerateKeysAndObjectsUsingBlock:^(NSString* key, NSString* value, BOOL *stop) {
         if(s.length) {
             [s appendString:@"&"];
         }
-        [s appendFormat:@"%@=%@", [key URLEncodedString], [value URLEncodedString]];
+        [s appendFormat:@"%@=%@", [key ady_URLEncodedString], [value ady_URLEncodedString]];
     }];
     return s;
 }

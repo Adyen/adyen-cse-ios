@@ -11,6 +11,10 @@
 @implementation NSString (AdyenUtil)
 
 - (BOOL)isHexString {
+    return [self ady_isHexString];
+}
+
+- (BOOL)ady_isHexString {
     for(NSUInteger l=0; l<self.length; l++) {
         unichar c = [self characterAtIndex:l];
         if(![self isHexChar:c]) {
@@ -26,7 +30,11 @@
            (c >= 'A' && c <= 'F');
 }
 
-- (NSString*)URLEncodedString {
+- (NSString *)URLEncodedString {
+    return [self ady_URLEncodedString];
+}
+
+- (NSString *)ady_URLEncodedString {
     NSCharacterSet *allowedCharacters = [[NSCharacterSet characterSetWithCharactersInString:@"!*'();:@&=+$,/?%#[]"] invertedSet];
     
     return [self stringByAddingPercentEncodingWithAllowedCharacters:allowedCharacters];
