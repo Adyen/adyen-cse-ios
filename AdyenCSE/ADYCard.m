@@ -12,11 +12,11 @@
 
 @implementation ADYCard
 
-+ (ADYCard*)decode:(NSData*)json error:(NSError**)error {
++ (ADYCard *)decode:(NSData *)json error:(NSError **)error {
     id result = [NSJSONSerialization JSONObjectWithData:json options:0 error:error];
-    if(!result) {
+    if (!result) {
         return nil;
-    } else if(![result isKindOfClass:[NSDictionary class]]) {
+    } else if (![result isKindOfClass:[NSDictionary class]]) {
         return nil;
     } else {
         NSDictionary* dict = (NSDictionary*)result;
@@ -26,28 +26,30 @@
         card.cvc = dict[@"cvc"];
         card.expiryMonth = dict[@"expiryMonth"];
         card.expiryYear = dict[@"expiryYear"];
+        
         return card;
     }
 }
 
-- (NSData*)encode {
-    NSMutableDictionary* dict = [NSMutableDictionary dictionary];
+- (NSData *)encode {
+    NSMutableDictionary *dict = [NSMutableDictionary dictionary];
     
-    for(NSString* key in @[ @"number", @"holderName", @"cvc", @"expiryMonth", @"expiryYear" ]) {
-        if([self valueForKey:key]) {
+    for (NSString *key in @[@"number", @"holderName", @"cvc", @"expiryMonth", @"expiryYear"]) {
+        if ([self valueForKey:key]) {
             dict[key] = [self valueForKey:key];
         }
     }
-    if(self.generationtime) {
+    
+    if (self.generationtime) {
         dict[@"generationtime"] = [self.dateFormatter stringFromDate:self.generationtime];
     }
     
     return [NSJSONSerialization dataWithJSONObject:dict options:0 error:nil];
 }
 
-- (NSDateFormatter*)dateFormatter {
+- (NSDateFormatter *)dateFormatter {
     static dispatch_once_t once;
-    static NSDateFormatter* instance;
+    static NSDateFormatter *instance;
     dispatch_once(&once, ^{
         instance = [[NSDateFormatter alloc] init];
         instance.locale = [[NSLocale alloc] initWithLocaleIdentifier:@"en_US_POSIX"];

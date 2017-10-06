@@ -6,14 +6,20 @@
 
 #import <Foundation/Foundation.h>
 
-@interface ADYCard : NSObject
-@property (nonatomic, strong) NSDate* generationtime;
-@property (nonatomic, strong) NSString* number;
-@property (nonatomic, strong) NSString* holderName;
-@property (nonatomic, strong) NSString* cvc;
-@property (nonatomic, strong) NSString* expiryMonth;
-@property (nonatomic, strong) NSString* expiryYear;
+NS_ASSUME_NONNULL_BEGIN
 
-+ (ADYCard*)decode:(NSData*)json error:(NSError**)error;
-- (NSData*)encode;
+@interface ADYCard : NSObject
+
+@property (nonatomic, strong, nullable) NSDate *generationtime;
+@property (nonatomic, strong, nullable) NSString *number;
+@property (nonatomic, strong, nullable) NSString *holderName;
+@property (nonatomic, strong, nullable) NSString *cvc;
+@property (nonatomic, strong, nullable) NSString *expiryMonth;
+@property (nonatomic, strong, nullable) NSString *expiryYear;
+
++ (nullable ADYCard *)decode:(NSData *)json error:(NSError * _Nullable *)error;
+- (nullable NSData *)encode;
+
 @end
+
+NS_ASSUME_NONNULL_END

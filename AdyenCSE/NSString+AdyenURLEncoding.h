@@ -6,8 +6,12 @@
 
 #import <Foundation/Foundation.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface NSString (AdyenURLEncoding)
 
-- (NSString *)urlEncodeUsingEncoding:(NSStringEncoding)encoding DEPRECATED_MSG_ATTRIBUTE("Use -ady_URLEncodedString instead.");
+- (nullable NSString *)urlEncodeUsingEncoding:(NSStringEncoding)encoding DEPRECATED_MSG_ATTRIBUTE("Use -ady_URLEncodedString instead.");
 
 @end
+
+NS_ASSUME_NONNULL_END

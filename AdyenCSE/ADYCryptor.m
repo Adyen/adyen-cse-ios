@@ -30,8 +30,10 @@ static NSUInteger crypt_ivLength = 12;
     crypt_msg_separator = separator;
 }
 
-+ (NSString *)encrypt:(NSData *)data publicKeyInHex:(NSString *)keyInHex
-{
++ (NSString *)encrypt:(NSData *)data publicKeyInHex:(NSString *)keyInHex {
+    NSParameterAssert(data);
+    NSParameterAssert(keyInHex);
+    
     OSStatus status = noErr;
     
     // generate a unique AES key and (later) encrypt it with the public RSA key of the merchant
@@ -82,18 +84,26 @@ static NSUInteger crypt_ivLength = 12;
 }
 
 #pragma mark - Wrappers
-+ (NSData *)aesEncrypt:(NSData *)data withKey:(NSData *)key iv:(NSData *)iv
-{
++ (NSData *)aesEncrypt:(NSData *)data withKey:(NSData *)key iv:(NSData *)iv {
+    NSParameterAssert(data);
+    NSParameterAssert(key);
+    NSParameterAssert(iv);
+    
     return [ADYAESCCMCryptor encrypt:data withKey:key iv:iv];
 }
 
 + (NSData *)rsaEncrypt:(NSData *)data withKeyInHex:(NSString *)keyInHex {
+    NSParameterAssert(data);
+    NSParameterAssert(keyInHex);
+    
     return [ADYRSACryptor encrypt:data withKeyInHex:keyInHex];
 }
 
 #pragma mark - Helpers
 
 + (NSData *)dataFromHex:(NSString *)hex {
+    NSParameterAssert(hex);
+    
     hex = [hex stringByReplacingOccurrencesOfString:@" " withString:@""];
     if (hex.length & 1) {
         hex = [@"0" stringByAppendingString:hex];
@@ -113,6 +123,8 @@ static NSUInteger crypt_ivLength = 12;
 
 
 + (NSData *)sha1FromStringInHex:(NSString *)stringInHex {
+    NSParameterAssert(stringInHex);
+    
     NSMutableData *digest = [NSMutableData dataWithCapacity:CC_SHA1_DIGEST_LENGTH];
     NSData *stringBytes = [stringInHex dataUsingEncoding:NSUTF8StringEncoding];
     if (CC_SHA1(stringBytes.bytes, (CC_LONG)stringBytes.length, digest.mutableBytes)) {

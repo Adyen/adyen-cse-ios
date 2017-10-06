@@ -27,10 +27,9 @@ NSData *dh(unsigned char *d) {
 
 + (NSData *)encrypt:(NSData *)data withKey:(NSData *)key iv:(NSData *)iv
           tagLength:(size_t)tagLength adata:(NSData *)adata {
-    
-    if (data == nil || key == nil || iv == nil) {
-        return nil;
-    }
+    NSParameterAssert(data);
+    NSParameterAssert(key);
+    NSParameterAssert(iv);
     
     NSMutableData *cipher = [NSMutableData dataWithBytes:data.bytes length:(data.length + tagLength)];
     

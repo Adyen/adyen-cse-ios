@@ -13,6 +13,9 @@
 @implementation ADYRSACryptor
 
 + (NSData *)encrypt:(NSData *)data withKeyInHex:(NSString *)keyInHex {
+    NSParameterAssert(data);
+    NSParameterAssert(keyInHex);
+    
     NSString *fingerprint = [[ADYCryptor sha1FromStringInHex:keyInHex] base64EncodedStringWithOptions:0];
 
     SecKeyRef publicKey = [self loadRSAPublicKeyRefWithAppTag:fingerprint];

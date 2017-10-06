@@ -12,11 +12,7 @@
     [self setMsgPrefix:@"adyenan0_1_1"];
 }
 
-+ (NSString *)encrypt:(NSData *)data publicKeyInHex:(NSString *)keyInHex {
-    if (data == nil || keyInHex == nil) {
-        return nil;
-    }
-    
++ (NSString *)encrypt:(NSData *)data publicKeyInHex:(NSString *)keyInHex {    
     return [super encrypt:data publicKeyInHex:keyInHex];
 }
 

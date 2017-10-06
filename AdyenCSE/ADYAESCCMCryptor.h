@@ -6,12 +6,16 @@
 
 #import <Foundation/Foundation.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 #define ADYC_AESCCM_TraceLog 0
 
 @interface ADYAESCCMCryptor : NSObject
 
-+ (NSData *)encrypt:(NSData *)data withKey:(NSData *)key iv:(NSData *)iv;
-+ (NSData *)encrypt:(NSData *)data withKey:(NSData *)key iv:(NSData *)iv
-          tagLength:(size_t)tagLength adata:(NSData *)adata;
++ (nullable NSData *)encrypt:(NSData *)data withKey:(NSData *)key iv:(NSData *)iv;
++ (nullable NSData *)encrypt:(NSData *)data withKey:(NSData *)key iv:(NSData *)iv
+          tagLength:(size_t)tagLength adata:(nullable NSData *)adata;
 
 @end
+
+NS_ASSUME_NONNULL_END
