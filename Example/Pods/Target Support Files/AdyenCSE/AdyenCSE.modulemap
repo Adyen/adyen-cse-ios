@@ -1,6 +1,0 @@
-framework module AdyenCSE {
-  umbrella header "AdyenCSE-umbrella.h"
-
-  export *
-  module * { export * }
-}
