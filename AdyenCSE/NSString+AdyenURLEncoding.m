@@ -7,15 +7,12 @@
 //
 
 #import "NSString+AdyenURLEncoding.h"
+#import "NSString+AdyenUtil.h"
 
 @implementation NSString (AdyenURLEncoding)
 
 -(NSString *)urlEncodeUsingEncoding:(NSStringEncoding)encoding {
-    return (NSString *)CFBridgingRelease(CFURLCreateStringByAddingPercentEscapes(NULL,
-                                                                                 (CFStringRef)self,
-                                                                                 NULL,
-                                                                                 (CFStringRef)@"!*'\"();:@&=+$,/?%#[]% ",
-                                                                                 CFStringConvertNSStringEncodingToEncoding(encoding)));
+    return [self URLEncodedString];
 }
 
 @end
