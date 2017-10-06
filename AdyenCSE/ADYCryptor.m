@@ -1,9 +1,7 @@
 //
-//  ADYCryptor.m
-//  AdyenClientsideEncryption
+// Copyright (c) 2017 Adyen B.V.
 //
-//  Created by Taras Kalapun on 10/26/14.
-//  Copyright (c) 2014 Adyen. All rights reserved.
+// This file is open source and available under the MIT license. See the LICENSE file for more info.
 //
 
 #import "ADYCryptor.h"

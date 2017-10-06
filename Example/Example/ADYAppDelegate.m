@@ -1,9 +1,7 @@
 //
-//  ADYAppDelegate.m
-//  AdyenCSE
+// Copyright (c) 2017 Adyen B.V.
 //
-//  Created by Oleg Lutsenko on 08/09/2016.
-//  Copyright (c) 2016 Adyen. All rights reserved.
+// This file is open source and available under the MIT license. See the LICENSE file for more info.
 //
 
 #import "ADYAppDelegate.h"

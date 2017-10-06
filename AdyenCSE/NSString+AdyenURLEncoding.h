@@ -1,9 +1,7 @@
 //
-//  NSString+URLEncoding.h
-//  AdyenClientsideEncryptionDemo
+// Copyright (c) 2017 Adyen B.V.
 //
-//  Created by Oleg Lutsenko on 8/8/16.
-//  Copyright © 2016 Adyen. All rights reserved.
+// This file is open source and available under the MIT license. See the LICENSE file for more info.
 //
 
 #import <Foundation/Foundation.h>

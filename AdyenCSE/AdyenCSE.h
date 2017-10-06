@@ -1,9 +1,7 @@
 //
-//  AdyenCSE.h
-//  Pods
+// Copyright (c) 2017 Adyen B.V.
 //
-//  Created by Oleg Lutsenko on 8/9/16.
-//
+// This file is open source and available under the MIT license. See the LICENSE file for more info.
 //
 
 #ifndef AdyenCSE_h

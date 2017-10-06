@@ -1,9 +1,7 @@
 //
-//  Card.h
-//  AdyenClientsideEncryption
+// Copyright (c) 2017 Adyen B.V.
 //
-//  Created by Jeroen Koops on 8/7/13.
-//  Copyright (c) 2013 Adyen. All rights reserved.
+// This file is open source and available under the MIT license. See the LICENSE file for more info.
 //
 
 #import <Foundation/Foundation.h>

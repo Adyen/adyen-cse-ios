@@ -1,9 +1,7 @@
 //
-//  main.m
-//  Example
+// Copyright (c) 2017 Adyen B.V.
 //
-//  Created by Joost van Dijk on 22/06/2017.
-//  Copyright © 2017 Adyen. All rights reserved.
+// This file is open source and available under the MIT license. See the LICENSE file for more info.
 //
 
 #import <UIKit/UIKit.h>
