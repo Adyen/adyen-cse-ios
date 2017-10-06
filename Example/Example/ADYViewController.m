@@ -149,7 +149,7 @@ static NSString * merchantPaymentAuthoriseUrl = @"";
 
 - (void)presentIncompleteCreditCardFormAlert {
     UIAlertController *alertController = [UIAlertController alertControllerWithTitle:NSLocalizedString(@"Incomplete Credit Card Form", nil)
-                                                                             message:NSLocalizedString(@"Please fill in all the fields.", <#comment#>)
+                                                                             message:NSLocalizedString(@"Please fill in all the fields.", nil)
                                                                       preferredStyle:UIAlertControllerStyleAlert];
     [alertController addAction:[UIAlertAction actionWithTitle:NSLocalizedString(@"OK", nil)
                                                         style:UIAlertActionStyleDefault
