@@ -5,7 +5,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <AdyenCSE/ADYCryptor.h>
+#import "ADYCryptor.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

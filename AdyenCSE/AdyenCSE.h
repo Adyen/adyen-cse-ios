@@ -7,13 +7,13 @@
 #ifndef AdyenCSE_h
 #define AdyenCSE_h
 
-#import <AdyenCSE/ADYAESCCMCryptor.h>
-#import <AdyenCSE/ADYCard.h>
-#import <AdyenCSE/ADYCryptor.h>
-#import <AdyenCSE/ADYEncrypter.h>
-#import <AdyenCSE/ADYRSACryptor.h>
-#import <AdyenCSE/NSDictionary+AdyenUtil.h>
-#import <AdyenCSE/NSString+AdyenURLEncoding.h>
-#import <AdyenCSE/NSString+AdyenUtil.h>
+#import "ADYAESCCMCryptor.h"
+#import "ADYCard.h"
+#import "ADYCryptor.h"
+#import "ADYEncrypter.h"
+#import "ADYRSACryptor.h"
+#import "NSDictionary+AdyenUtil.h"
+#import "NSString+AdyenURLEncoding.h"
+#import "NSString+AdyenUtil.h"
 
 #endif /* AdyenCSE_h */
